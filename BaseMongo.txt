@@ -1,0 +1,1805 @@
+1) docker run -d --name mongoP2 mongo
+2) docker exec -it mongoP2 bash
+3) mongo
+4) db.AdsAmount.insert([
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "23-09-2017",
+    "Monto": 2752.47,
+    "Campania": "Campaña4",
+    "Views": 8640,
+    "Shares": 9384,
+    "Ubicacion": "Machias"
+  },
+  {
+    "Name": "KFC",
+    "Fecha": "03-08-2014",
+    "Monto": 1706.19,
+    "Campania": "Campaña4",
+    "Views": 2679,
+    "Shares": 2460,
+    "Ubicacion": "Bascom"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "20-08-2019",
+    "Monto": 2700.09,
+    "Campania": "Campaña5",
+    "Views": 2406,
+    "Shares": 2922,
+    "Ubicacion": "Juntura"
+  },
+  {
+    "Name": "MCDONALDS",
+    "Fecha": "28-07-2016",
+    "Monto": 3942.12,
+    "Campania": "Campaña8",
+    "Views": 8743,
+    "Shares": 8709,
+    "Ubicacion": "Hiseville"
+  },
+  {
+    "Name": "KFC",
+    "Fecha": "30-08-2019",
+    "Monto": 3086.75,
+    "Campania": "Campaña1",
+    "Views": 7590,
+    "Shares": 7745,
+    "Ubicacion": "Wollochet"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "04-04-2020",
+    "Monto": 2489.41,
+    "Campania": "Campaña8",
+    "Views": 7976,
+    "Shares": 4702,
+    "Ubicacion": "Sanford"
+  },
+  {
+    "Name": "MCDONALDS",
+    "Fecha": "05-04-2016",
+    "Monto": 2118.36,
+    "Campania": "Campaña6",
+    "Views": 4730,
+    "Shares": 8878,
+    "Ubicacion": "Wyoming"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "27-04-2020",
+    "Monto": 2521.54,
+    "Campania": "Campaña6",
+    "Views": 4521,
+    "Shares": 2285,
+    "Ubicacion": "Kilbourne"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "26-09-2020",
+    "Monto": 1542.64,
+    "Campania": "Campaña5",
+    "Views": 1995,
+    "Shares": 4315,
+    "Ubicacion": "Bentonville"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "17-09-2018",
+    "Monto": 2521.33,
+    "Campania": "Campaña5",
+    "Views": 4921,
+    "Shares": 3324,
+    "Ubicacion": "Norvelt"
+  },
+  {
+    "Name": "MCDONALDS",
+    "Fecha": "03-10-2014",
+    "Monto": 3730.16,
+    "Campania": "Campaña1",
+    "Views": 2579,
+    "Shares": 8989,
+    "Ubicacion": "Bynum"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "30-06-2019",
+    "Monto": 3301.43,
+    "Campania": "Campaña1",
+    "Views": 2438,
+    "Shares": 8245,
+    "Ubicacion": "Osage"
+  },
+  {
+    "Name": "KFC",
+    "Fecha": "30-11-2018",
+    "Monto": 1814.26,
+    "Campania": "Campaña8",
+    "Views": 8206,
+    "Shares": 6122,
+    "Ubicacion": "Kapowsin"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "16-07-2014",
+    "Monto": 1089.47,
+    "Campania": "Campaña3",
+    "Views": 5776,
+    "Shares": 9247,
+    "Ubicacion": "Denio"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "09-03-2015",
+    "Monto": 2733.01,
+    "Campania": "Campaña7",
+    "Views": 9560,
+    "Shares": 3107,
+    "Ubicacion": "Forbestown"
+  },
+  {
+    "Name": "MCDONALDS",
+    "Fecha": "24-04-2015",
+    "Monto": 1942.84,
+    "Campania": "Campaña4",
+    "Views": 8735,
+    "Shares": 2582,
+    "Ubicacion": "Bendon"
+  },
+  {
+    "Name": "KFC",
+    "Fecha": "02-11-2019",
+    "Monto": 3830.49,
+    "Campania": "Campaña8",
+    "Views": 4869,
+    "Shares": 9104,
+    "Ubicacion": "Sultana"
+  },
+  {
+    "Name": "MCDONALDS",
+    "Fecha": "16-05-2017",
+    "Monto": 1079.24,
+    "Campania": "Campaña6",
+    "Views": 8736,
+    "Shares": 7456,
+    "Ubicacion": "Jacumba"
+  },
+  {
+    "Name": "MCDONALDS",
+    "Fecha": "29-09-2020",
+    "Monto": 1335.65,
+    "Campania": "Campaña2",
+    "Views": 3702,
+    "Shares": 3478,
+    "Ubicacion": "Thornport"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "03-01-2015",
+    "Monto": 2215.18,
+    "Campania": "Campaña6",
+    "Views": 4252,
+    "Shares": 2600,
+    "Ubicacion": "Bend"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "21-03-2016",
+    "Monto": 3203.46,
+    "Campania": "Campaña4",
+    "Views": 4577,
+    "Shares": 5064,
+    "Ubicacion": "Steinhatchee"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "25-08-2020",
+    "Monto": 3172.8,
+    "Campania": "Campaña1",
+    "Views": 3661,
+    "Shares": 5033,
+    "Ubicacion": "Vienna"
+  },
+  {
+    "Name": "MCDONALDS",
+    "Fecha": "22-06-2017",
+    "Monto": 2917.88,
+    "Campania": "Campaña4",
+    "Views": 1640,
+    "Shares": 6967,
+    "Ubicacion": "Muir"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "01-09-2020",
+    "Monto": 3901.79,
+    "Campania": "Campaña5",
+    "Views": 6416,
+    "Shares": 9041,
+    "Ubicacion": "Jennings"
+  },
+  {
+    "Name": "MCDONALDS",
+    "Fecha": "21-02-2015",
+    "Monto": 1447.84,
+    "Campania": "Campaña6",
+    "Views": 2245,
+    "Shares": 1784,
+    "Ubicacion": "Brooktrails"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "29-04-2019",
+    "Monto": 3451.04,
+    "Campania": "Campaña7",
+    "Views": 9458,
+    "Shares": 1425,
+    "Ubicacion": "Wedgewood"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "27-03-2015",
+    "Monto": 2381.85,
+    "Campania": "Campaña8",
+    "Views": 5536,
+    "Shares": 3870,
+    "Ubicacion": "Goochland"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "05-05-2019",
+    "Monto": 2368.87,
+    "Campania": "Campaña6",
+    "Views": 5627,
+    "Shares": 4801,
+    "Ubicacion": "Rodman"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "09-06-2019",
+    "Monto": 3302.83,
+    "Campania": "Campaña1",
+    "Views": 9062,
+    "Shares": 7124,
+    "Ubicacion": "Camas"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "25-08-2015",
+    "Monto": 2513.09,
+    "Campania": "Campaña2",
+    "Views": 3603,
+    "Shares": 5881,
+    "Ubicacion": "Yettem"
+  },
+  {
+    "Name": "MCDONALDS",
+    "Fecha": "14-02-2017",
+    "Monto": 1040.62,
+    "Campania": "Campaña3",
+    "Views": 2266,
+    "Shares": 3602,
+    "Ubicacion": "Comptche"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "02-11-2020",
+    "Monto": 3324.11,
+    "Campania": "Campaña6",
+    "Views": 3597,
+    "Shares": 1357,
+    "Ubicacion": "Curtice"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "14-04-2020",
+    "Monto": 2197.71,
+    "Campania": "Campaña4",
+    "Views": 5006,
+    "Shares": 1843,
+    "Ubicacion": "Winfred"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "24-05-2020",
+    "Monto": 1023.3,
+    "Campania": "Campaña3",
+    "Views": 1318,
+    "Shares": 4085,
+    "Ubicacion": "Westwood"
+  },
+  {
+    "Name": "MCDONALDS",
+    "Fecha": "16-12-2020",
+    "Monto": 3193.25,
+    "Campania": "Campaña5",
+    "Views": 3429,
+    "Shares": 8547,
+    "Ubicacion": "Kula"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "13-05-2016",
+    "Monto": 2517.66,
+    "Campania": "Campaña6",
+    "Views": 8643,
+    "Shares": 3133,
+    "Ubicacion": "Lowgap"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "20-01-2018",
+    "Monto": 1008.89,
+    "Campania": "Campaña2",
+    "Views": 1528,
+    "Shares": 7530,
+    "Ubicacion": "Watchtower"
+  },
+  {
+    "Name": "MCDONALDS",
+    "Fecha": "26-02-2018",
+    "Monto": 2250.6,
+    "Campania": "Campaña5",
+    "Views": 6329,
+    "Shares": 5683,
+    "Ubicacion": "Dalton"
+  },
+  {
+    "Name": "KFC",
+    "Fecha": "09-07-2014",
+    "Monto": 2997.81,
+    "Campania": "Campaña8",
+    "Views": 6688,
+    "Shares": 4715,
+    "Ubicacion": "Flintville"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "14-02-2016",
+    "Monto": 1832.4,
+    "Campania": "Campaña6",
+    "Views": 8932,
+    "Shares": 1442,
+    "Ubicacion": "Crumpler"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "14-08-2020",
+    "Monto": 1525.86,
+    "Campania": "Campaña8",
+    "Views": 5384,
+    "Shares": 8346,
+    "Ubicacion": "Marenisco"
+  },
+  {
+    "Name": "MCDONALDS",
+    "Fecha": "10-05-2018",
+    "Monto": 2627.42,
+    "Campania": "Campaña2",
+    "Views": 9438,
+    "Shares": 1976,
+    "Ubicacion": "Saranap"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "13-03-2018",
+    "Monto": 1006.8,
+    "Campania": "Campaña6",
+    "Views": 8840,
+    "Shares": 5601,
+    "Ubicacion": "Cochranville"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "20-02-2019",
+    "Monto": 3895.54,
+    "Campania": "Campaña2",
+    "Views": 9234,
+    "Shares": 7304,
+    "Ubicacion": "Clinton"
+  },
+  {
+    "Name": "KFC",
+    "Fecha": "08-04-2017",
+    "Monto": 2646.69,
+    "Campania": "Campaña3",
+    "Views": 2341,
+    "Shares": 8547,
+    "Ubicacion": "Cherokee"
+  },
+  {
+    "Name": "KFC",
+    "Fecha": "07-11-2017",
+    "Monto": 2875.59,
+    "Campania": "Campaña2",
+    "Views": 1453,
+    "Shares": 1008,
+    "Ubicacion": "Unionville"
+  },
+  {
+    "Name": "MCDONALDS",
+    "Fecha": "29-05-2016",
+    "Monto": 1090.61,
+    "Campania": "Campaña7",
+    "Views": 4859,
+    "Shares": 4054,
+    "Ubicacion": "Ahwahnee"
+  },
+  {
+    "Name": "KFC",
+    "Fecha": "27-08-2018",
+    "Monto": 3322.35,
+    "Campania": "Campaña4",
+    "Views": 5008,
+    "Shares": 9735,
+    "Ubicacion": "Leland"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "25-03-2014",
+    "Monto": 2191.89,
+    "Campania": "Campaña5",
+    "Views": 6426,
+    "Shares": 3163,
+    "Ubicacion": "Thynedale"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "27-01-2017",
+    "Monto": 2135.51,
+    "Campania": "Campaña6",
+    "Views": 2216,
+    "Shares": 4299,
+    "Ubicacion": "Dundee"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "22-10-2019",
+    "Monto": 1885.48,
+    "Campania": "Campaña2",
+    "Views": 5927,
+    "Shares": 2191,
+    "Ubicacion": "Maplewood"
+  },
+  {
+    "Name": "MCDONALDS",
+    "Fecha": "28-11-2019",
+    "Monto": 2913.99,
+    "Campania": "Campaña3",
+    "Views": 6200,
+    "Shares": 4626,
+    "Ubicacion": "Bentley"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "17-06-2016",
+    "Monto": 2003.27,
+    "Campania": "Campaña2",
+    "Views": 6954,
+    "Shares": 5489,
+    "Ubicacion": "Wheatfields"
+  },
+  {
+    "Name": "KFC",
+    "Fecha": "14-11-2020",
+    "Monto": 3425.49,
+    "Campania": "Campaña6",
+    "Views": 8406,
+    "Shares": 3432,
+    "Ubicacion": "Hobucken"
+  },
+  {
+    "Name": "MCDONALDS",
+    "Fecha": "29-04-2020",
+    "Monto": 1027.62,
+    "Campania": "Campaña2",
+    "Views": 4792,
+    "Shares": 6868,
+    "Ubicacion": "Brogan"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "08-05-2014",
+    "Monto": 3362.6,
+    "Campania": "Campaña1",
+    "Views": 6255,
+    "Shares": 1109,
+    "Ubicacion": "Hiwasse"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "07-01-2019",
+    "Monto": 3072.49,
+    "Campania": "Campaña4",
+    "Views": 8952,
+    "Shares": 4920,
+    "Ubicacion": "Bath"
+  },
+  {
+    "Name": "MCDONALDS",
+    "Fecha": "09-02-2017",
+    "Monto": 2516.71,
+    "Campania": "Campaña1",
+    "Views": 7855,
+    "Shares": 8156,
+    "Ubicacion": "Woodburn"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "12-10-2018",
+    "Monto": 3353.13,
+    "Campania": "Campaña6",
+    "Views": 4477,
+    "Shares": 3258,
+    "Ubicacion": "Brazos"
+  },
+  {
+    "Name": "MCDONALDS",
+    "Fecha": "24-03-2015",
+    "Monto": 3856.49,
+    "Campania": "Campaña1",
+    "Views": 1804,
+    "Shares": 9915,
+    "Ubicacion": "Glenbrook"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "12-12-2016",
+    "Monto": 1823.85,
+    "Campania": "Campaña4",
+    "Views": 6343,
+    "Shares": 2162,
+    "Ubicacion": "Coldiron"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "19-02-2019",
+    "Monto": 2694.59,
+    "Campania": "Campaña3",
+    "Views": 6971,
+    "Shares": 8965,
+    "Ubicacion": "Summerset"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "04-04-2020",
+    "Monto": 1892.9,
+    "Campania": "Campaña8",
+    "Views": 6309,
+    "Shares": 4957,
+    "Ubicacion": "Tecolotito"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "25-01-2018",
+    "Monto": 2120.67,
+    "Campania": "Campaña1",
+    "Views": 3168,
+    "Shares": 1203,
+    "Ubicacion": "Hamilton"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "05-06-2015",
+    "Monto": 3857.64,
+    "Campania": "Campaña4",
+    "Views": 7206,
+    "Shares": 4098,
+    "Ubicacion": "Harrodsburg"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "29-06-2019",
+    "Monto": 3378,
+    "Campania": "Campaña6",
+    "Views": 2908,
+    "Shares": 5958,
+    "Ubicacion": "Swartzville"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "12-04-2014",
+    "Monto": 3777.04,
+    "Campania": "Campaña2",
+    "Views": 4468,
+    "Shares": 4202,
+    "Ubicacion": "Rosewood"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "21-08-2019",
+    "Monto": 3226.53,
+    "Campania": "Campaña6",
+    "Views": 4336,
+    "Shares": 4100,
+    "Ubicacion": "Zarephath"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "22-01-2019",
+    "Monto": 2856.57,
+    "Campania": "Campaña2",
+    "Views": 1419,
+    "Shares": 6176,
+    "Ubicacion": "Grantville"
+  },
+  {
+    "Name": "MCDONALDS",
+    "Fecha": "13-04-2015",
+    "Monto": 2947.67,
+    "Campania": "Campaña6",
+    "Views": 2425,
+    "Shares": 1476,
+    "Ubicacion": "Babb"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "28-08-2018",
+    "Monto": 1613.79,
+    "Campania": "Campaña7",
+    "Views": 9279,
+    "Shares": 3664,
+    "Ubicacion": "Ebro"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "17-02-2017",
+    "Monto": 3235.53,
+    "Campania": "Campaña6",
+    "Views": 5187,
+    "Shares": 9632,
+    "Ubicacion": "Fontanelle"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "25-04-2019",
+    "Monto": 1985.77,
+    "Campania": "Campaña1",
+    "Views": 5380,
+    "Shares": 5926,
+    "Ubicacion": "Eastmont"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "07-06-2021",
+    "Monto": 2607.88,
+    "Campania": "Campaña5",
+    "Views": 3039,
+    "Shares": 1671,
+    "Ubicacion": "Chemung"
+  },
+  {
+    "Name": "KFC",
+    "Fecha": "02-06-2021",
+    "Monto": 3657.75,
+    "Campania": "Campaña3",
+    "Views": 6068,
+    "Shares": 8689,
+    "Ubicacion": "Starks"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "19-10-2017",
+    "Monto": 3766.63,
+    "Campania": "Campaña1",
+    "Views": 5653,
+    "Shares": 5127,
+    "Ubicacion": "Stewart"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "25-08-2016",
+    "Monto": 1735.34,
+    "Campania": "Campaña2",
+    "Views": 7818,
+    "Shares": 5560,
+    "Ubicacion": "Choctaw"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "01-07-2017",
+    "Monto": 2425.82,
+    "Campania": "Campaña5",
+    "Views": 5268,
+    "Shares": 5518,
+    "Ubicacion": "Waterford"
+  },
+  {
+    "Name": "MCDONALDS",
+    "Fecha": "18-06-2019",
+    "Monto": 3187.83,
+    "Campania": "Campaña2",
+    "Views": 8240,
+    "Shares": 2985,
+    "Ubicacion": "Linwood"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "14-07-2014",
+    "Monto": 1572.65,
+    "Campania": "Campaña2",
+    "Views": 7711,
+    "Shares": 9117,
+    "Ubicacion": "Eastvale"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "30-06-2019",
+    "Monto": 2894.5,
+    "Campania": "Campaña4",
+    "Views": 9687,
+    "Shares": 3323,
+    "Ubicacion": "Coyote"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "29-03-2018",
+    "Monto": 1805.62,
+    "Campania": "Campaña6",
+    "Views": 4857,
+    "Shares": 4462,
+    "Ubicacion": "Groton"
+  },
+  {
+    "Name": "KFC",
+    "Fecha": "01-10-2019",
+    "Monto": 3233.88,
+    "Campania": "Campaña1",
+    "Views": 3600,
+    "Shares": 9177,
+    "Ubicacion": "Verdi"
+  },
+  {
+    "Name": "KFC",
+    "Fecha": "17-01-2021",
+    "Monto": 1463.59,
+    "Campania": "Campaña4",
+    "Views": 2581,
+    "Shares": 9416,
+    "Ubicacion": "Sanders"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "22-04-2014",
+    "Monto": 1412.29,
+    "Campania": "Campaña5",
+    "Views": 2836,
+    "Shares": 9131,
+    "Ubicacion": "Clayville"
+  },
+  {
+    "Name": "KFC",
+    "Fecha": "23-05-2015",
+    "Monto": 2869.85,
+    "Campania": "Campaña2",
+    "Views": 1987,
+    "Shares": 2863,
+    "Ubicacion": "Homestead"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "15-05-2019",
+    "Monto": 3629.12,
+    "Campania": "Campaña7",
+    "Views": 9626,
+    "Shares": 9787,
+    "Ubicacion": "Emerald"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "24-07-2014",
+    "Monto": 1725.24,
+    "Campania": "Campaña3",
+    "Views": 7588,
+    "Shares": 3660,
+    "Ubicacion": "Stewartville"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "09-08-2018",
+    "Monto": 1484.65,
+    "Campania": "Campaña7",
+    "Views": 4175,
+    "Shares": 1731,
+    "Ubicacion": "Calverton"
+  },
+  {
+    "Name": "MCDONALDS",
+    "Fecha": "18-07-2019",
+    "Monto": 2657.22,
+    "Campania": "Campaña5",
+    "Views": 5343,
+    "Shares": 7819,
+    "Ubicacion": "Yardville"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "04-09-2018",
+    "Monto": 1406.12,
+    "Campania": "Campaña6",
+    "Views": 5385,
+    "Shares": 8427,
+    "Ubicacion": "Blandburg"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "22-04-2019",
+    "Monto": 3731.39,
+    "Campania": "Campaña6",
+    "Views": 1930,
+    "Shares": 1730,
+    "Ubicacion": "Saddlebrooke"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "14-01-2020",
+    "Monto": 2145.85,
+    "Campania": "Campaña1",
+    "Views": 7744,
+    "Shares": 8485,
+    "Ubicacion": "Boykin"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "04-09-2014",
+    "Monto": 1082.92,
+    "Campania": "Campaña7",
+    "Views": 6303,
+    "Shares": 1442,
+    "Ubicacion": "Sterling"
+  },
+  {
+    "Name": "MCDONALDS",
+    "Fecha": "26-08-2015",
+    "Monto": 3442.38,
+    "Campania": "Campaña4",
+    "Views": 5734,
+    "Shares": 8216,
+    "Ubicacion": "Silkworth"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "18-04-2020",
+    "Monto": 2670.36,
+    "Campania": "Campaña5",
+    "Views": 2027,
+    "Shares": 4836,
+    "Ubicacion": "Coaldale"
+  },
+  {
+    "Name": "KFC",
+    "Fecha": "03-02-2014",
+    "Monto": 1639.18,
+    "Campania": "Campaña8",
+    "Views": 8607,
+    "Shares": 9179,
+    "Ubicacion": "Joes"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "17-03-2020",
+    "Monto": 1976.34,
+    "Campania": "Campaña8",
+    "Views": 1784,
+    "Shares": 1740,
+    "Ubicacion": "Carlos"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "30-11-2019",
+    "Monto": 1718.28,
+    "Campania": "Campaña7",
+    "Views": 5815,
+    "Shares": 1264,
+    "Ubicacion": "Dyckesville"
+  },
+  {
+    "Name": "KFC",
+    "Fecha": "02-05-2018",
+    "Monto": 1814.76,
+    "Campania": "Campaña4",
+    "Views": 6068,
+    "Shares": 8282,
+    "Ubicacion": "Riceville"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "23-03-2021",
+    "Monto": 1460.97,
+    "Campania": "Campaña2",
+    "Views": 1281,
+    "Shares": 4617,
+    "Ubicacion": "Wescosville"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "24-04-2020",
+    "Monto": 2702.87,
+    "Campania": "Campaña7",
+    "Views": 9866,
+    "Shares": 6967,
+    "Ubicacion": "Tedrow"
+  },
+  {
+    "Name": "MCDONALDS",
+    "Fecha": "31-01-2016",
+    "Monto": 2704.15,
+    "Campania": "Campaña2",
+    "Views": 2720,
+    "Shares": 4119,
+    "Ubicacion": "Allamuchy"
+  },
+  {
+    "Name": "KFC",
+    "Fecha": "01-03-2015",
+    "Monto": 1195.46,
+    "Campania": "Campaña1",
+    "Views": 8707,
+    "Shares": 5424,
+    "Ubicacion": "Magnolia"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "08-04-2019",
+    "Monto": 3066.82,
+    "Campania": "Campaña3",
+    "Views": 8422,
+    "Shares": 1304,
+    "Ubicacion": "Tyro"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "06-05-2016",
+    "Monto": 2369.09,
+    "Campania": "Campaña4",
+    "Views": 4470,
+    "Shares": 4070,
+    "Ubicacion": "Stagecoach"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "14-04-2015",
+    "Monto": 1116.11,
+    "Campania": "Campaña3",
+    "Views": 8724,
+    "Shares": 9652,
+    "Ubicacion": "Churchill"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "19-12-2017",
+    "Monto": 1389.11,
+    "Campania": "Campaña2",
+    "Views": 4028,
+    "Shares": 7936,
+    "Ubicacion": "Gadsden"
+  },
+  {
+    "Name": "MCDONALDS",
+    "Fecha": "10-11-2014",
+    "Monto": 2958.02,
+    "Campania": "Campaña6",
+    "Views": 9486,
+    "Shares": 4484,
+    "Ubicacion": "Skyland"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "17-04-2021",
+    "Monto": 1361.09,
+    "Campania": "Campaña2",
+    "Views": 5819,
+    "Shares": 5756,
+    "Ubicacion": "Bainbridge"
+  },
+  {
+    "Name": "MCDONALDS",
+    "Fecha": "31-03-2020",
+    "Monto": 1786.57,
+    "Campania": "Campaña1",
+    "Views": 3493,
+    "Shares": 5071,
+    "Ubicacion": "Bedias"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "23-06-2017",
+    "Monto": 3194.81,
+    "Campania": "Campaña6",
+    "Views": 1207,
+    "Shares": 9754,
+    "Ubicacion": "Whitehaven"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "21-08-2014",
+    "Monto": 2401.82,
+    "Campania": "Campaña8",
+    "Views": 6546,
+    "Shares": 8979,
+    "Ubicacion": "Dellview"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "12-12-2014",
+    "Monto": 2591.79,
+    "Campania": "Campaña5",
+    "Views": 2361,
+    "Shares": 9756,
+    "Ubicacion": "Woodlands"
+  },
+  {
+    "Name": "KFC",
+    "Fecha": "09-08-2018",
+    "Monto": 2202.99,
+    "Campania": "Campaña7",
+    "Views": 8031,
+    "Shares": 9543,
+    "Ubicacion": "Avoca"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "16-06-2020",
+    "Monto": 2142.2,
+    "Campania": "Campaña5",
+    "Views": 2066,
+    "Shares": 6353,
+    "Ubicacion": "Hayes"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "17-08-2014",
+    "Monto": 2418.07,
+    "Campania": "Campaña1",
+    "Views": 2479,
+    "Shares": 2857,
+    "Ubicacion": "Nelson"
+  },
+  {
+    "Name": "KFC",
+    "Fecha": "26-09-2014",
+    "Monto": 2557.28,
+    "Campania": "Campaña1",
+    "Views": 9749,
+    "Shares": 3524,
+    "Ubicacion": "Kraemer"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "01-02-2017",
+    "Monto": 2473.37,
+    "Campania": "Campaña8",
+    "Views": 1599,
+    "Shares": 7089,
+    "Ubicacion": "Hegins"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "12-03-2020",
+    "Monto": 3057.62,
+    "Campania": "Campaña4",
+    "Views": 2224,
+    "Shares": 9703,
+    "Ubicacion": "Martell"
+  },
+  {
+    "Name": "KFC",
+    "Fecha": "17-04-2015",
+    "Monto": 2642.8,
+    "Campania": "Campaña7",
+    "Views": 5541,
+    "Shares": 7277,
+    "Ubicacion": "Vallonia"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "11-06-2021",
+    "Monto": 1146.18,
+    "Campania": "Campaña5",
+    "Views": 3370,
+    "Shares": 5688,
+    "Ubicacion": "Ona"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "18-01-2014",
+    "Monto": 1336.35,
+    "Campania": "Campaña6",
+    "Views": 2275,
+    "Shares": 8618,
+    "Ubicacion": "Weedville"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "07-11-2018",
+    "Monto": 1650.21,
+    "Campania": "Campaña5",
+    "Views": 2312,
+    "Shares": 7653,
+    "Ubicacion": "Eggertsville"
+  },
+  {
+    "Name": "MCDONALDS",
+    "Fecha": "08-05-2014",
+    "Monto": 3601.08,
+    "Campania": "Campaña3",
+    "Views": 6468,
+    "Shares": 1524,
+    "Ubicacion": "Stouchsburg"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "04-07-2015",
+    "Monto": 1366.49,
+    "Campania": "Campaña3",
+    "Views": 2349,
+    "Shares": 4306,
+    "Ubicacion": "Nile"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "31-01-2021",
+    "Monto": 1401.24,
+    "Campania": "Campaña7",
+    "Views": 6002,
+    "Shares": 4373,
+    "Ubicacion": "Talpa"
+  },
+  {
+    "Name": "KFC",
+    "Fecha": "01-04-2020",
+    "Monto": 1794.27,
+    "Campania": "Campaña6",
+    "Views": 2035,
+    "Shares": 8579,
+    "Ubicacion": "Bowden"
+  },
+  {
+    "Name": "MCDONALDS",
+    "Fecha": "01-02-2014",
+    "Monto": 3770.57,
+    "Campania": "Campaña4",
+    "Views": 5425,
+    "Shares": 7710,
+    "Ubicacion": "Ronco"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "08-10-2014",
+    "Monto": 1467.86,
+    "Campania": "Campaña2",
+    "Views": 2597,
+    "Shares": 6948,
+    "Ubicacion": "Norris"
+  },
+  {
+    "Name": "KFC",
+    "Fecha": "25-12-2018",
+    "Monto": 3189.7,
+    "Campania": "Campaña3",
+    "Views": 1452,
+    "Shares": 5868,
+    "Ubicacion": "Crayne"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "07-07-2016",
+    "Monto": 1582.4,
+    "Campania": "Campaña2",
+    "Views": 3846,
+    "Shares": 5046,
+    "Ubicacion": "Aberdeen"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "06-02-2014",
+    "Monto": 3330.62,
+    "Campania": "Campaña5",
+    "Views": 4119,
+    "Shares": 3910,
+    "Ubicacion": "Balm"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "30-04-2015",
+    "Monto": 2782.36,
+    "Campania": "Campaña2",
+    "Views": 5052,
+    "Shares": 4195,
+    "Ubicacion": "Haena"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "11-04-2018",
+    "Monto": 2049.4,
+    "Campania": "Campaña5",
+    "Views": 6391,
+    "Shares": 9606,
+    "Ubicacion": "Caroleen"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "16-10-2018",
+    "Monto": 1596.78,
+    "Campania": "Campaña7",
+    "Views": 1836,
+    "Shares": 9010,
+    "Ubicacion": "Beechmont"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "02-05-2018",
+    "Monto": 3787.49,
+    "Campania": "Campaña8",
+    "Views": 3354,
+    "Shares": 3280,
+    "Ubicacion": "Basye"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "25-02-2020",
+    "Monto": 1117.15,
+    "Campania": "Campaña5",
+    "Views": 9502,
+    "Shares": 9918,
+    "Ubicacion": "Avalon"
+  },
+  {
+    "Name": "MCDONALDS",
+    "Fecha": "10-05-2019",
+    "Monto": 1158.73,
+    "Campania": "Campaña2",
+    "Views": 2115,
+    "Shares": 9723,
+    "Ubicacion": "Davenport"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "25-08-2017",
+    "Monto": 2620.27,
+    "Campania": "Campaña5",
+    "Views": 4488,
+    "Shares": 7428,
+    "Ubicacion": "Savage"
+  },
+  {
+    "Name": "KFC",
+    "Fecha": "10-03-2017",
+    "Monto": 1056.89,
+    "Campania": "Campaña5",
+    "Views": 9846,
+    "Shares": 3030,
+    "Ubicacion": "Sussex"
+  },
+  {
+    "Name": "MCDONALDS",
+    "Fecha": "02-04-2020",
+    "Monto": 1613.3,
+    "Campania": "Campaña6",
+    "Views": 4266,
+    "Shares": 8550,
+    "Ubicacion": "Tryon"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "19-09-2014",
+    "Monto": 1435.35,
+    "Campania": "Campaña4",
+    "Views": 3939,
+    "Shares": 3046,
+    "Ubicacion": "Belleview"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "24-01-2021",
+    "Monto": 3354.52,
+    "Campania": "Campaña3",
+    "Views": 9221,
+    "Shares": 7879,
+    "Ubicacion": "Linganore"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "08-09-2016",
+    "Monto": 3747.29,
+    "Campania": "Campaña6",
+    "Views": 4715,
+    "Shares": 5970,
+    "Ubicacion": "Welch"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "24-03-2018",
+    "Monto": 1569.1,
+    "Campania": "Campaña8",
+    "Views": 6934,
+    "Shares": 5542,
+    "Ubicacion": "Barclay"
+  },
+  {
+    "Name": "KFC",
+    "Fecha": "08-01-2021",
+    "Monto": 3888.91,
+    "Campania": "Campaña8",
+    "Views": 2264,
+    "Shares": 5534,
+    "Ubicacion": "Grapeview"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "13-06-2016",
+    "Monto": 3722.8,
+    "Campania": "Campaña1",
+    "Views": 2345,
+    "Shares": 2458,
+    "Ubicacion": "Brookfield"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "19-11-2020",
+    "Monto": 3976.08,
+    "Campania": "Campaña2",
+    "Views": 9213,
+    "Shares": 1418,
+    "Ubicacion": "Utting"
+  },
+  {
+    "Name": "KFC",
+    "Fecha": "19-07-2020",
+    "Monto": 2551.75,
+    "Campania": "Campaña8",
+    "Views": 3560,
+    "Shares": 9585,
+    "Ubicacion": "Fowlerville"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "11-01-2015",
+    "Monto": 1299.8,
+    "Campania": "Campaña8",
+    "Views": 1709,
+    "Shares": 9190,
+    "Ubicacion": "Yukon"
+  },
+  {
+    "Name": "MCDONALDS",
+    "Fecha": "11-10-2016",
+    "Monto": 1217.83,
+    "Campania": "Campaña8",
+    "Views": 7967,
+    "Shares": 2534,
+    "Ubicacion": "Olney"
+  },
+  {
+    "Name": "MCDONALDS",
+    "Fecha": "15-04-2017",
+    "Monto": 1564.06,
+    "Campania": "Campaña6",
+    "Views": 5362,
+    "Shares": 4034,
+    "Ubicacion": "Mapletown"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "02-04-2014",
+    "Monto": 1573.43,
+    "Campania": "Campaña6",
+    "Views": 1994,
+    "Shares": 6395,
+    "Ubicacion": "Beaverdale"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "15-08-2020",
+    "Monto": 3916.32,
+    "Campania": "Campaña7",
+    "Views": 1796,
+    "Shares": 5317,
+    "Ubicacion": "Buxton"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "14-12-2019",
+    "Monto": 1568.75,
+    "Campania": "Campaña4",
+    "Views": 6087,
+    "Shares": 9546,
+    "Ubicacion": "Williamson"
+  },
+  {
+    "Name": "MCDONALDS",
+    "Fecha": "08-05-2018",
+    "Monto": 1545.52,
+    "Campania": "Campaña8",
+    "Views": 8326,
+    "Shares": 5698,
+    "Ubicacion": "Neahkahnie"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "12-10-2016",
+    "Monto": 1901.65,
+    "Campania": "Campaña3",
+    "Views": 9251,
+    "Shares": 2263,
+    "Ubicacion": "Guthrie"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "17-04-2014",
+    "Monto": 3069.32,
+    "Campania": "Campaña2",
+    "Views": 8231,
+    "Shares": 8638,
+    "Ubicacion": "Kersey"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "07-05-2021",
+    "Monto": 1947.21,
+    "Campania": "Campaña5",
+    "Views": 4284,
+    "Shares": 8085,
+    "Ubicacion": "Kohatk"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "07-02-2019",
+    "Monto": 3142.09,
+    "Campania": "Campaña2",
+    "Views": 1904,
+    "Shares": 6569,
+    "Ubicacion": "Gibsonia"
+  },
+  {
+    "Name": "KFC",
+    "Fecha": "23-09-2019",
+    "Monto": 1343.45,
+    "Campania": "Campaña7",
+    "Views": 9909,
+    "Shares": 7744,
+    "Ubicacion": "Sunriver"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "17-02-2015",
+    "Monto": 2927.31,
+    "Campania": "Campaña4",
+    "Views": 9814,
+    "Shares": 9194,
+    "Ubicacion": "Camptown"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "14-07-2014",
+    "Monto": 3248.27,
+    "Campania": "Campaña1",
+    "Views": 3558,
+    "Shares": 1619,
+    "Ubicacion": "Alafaya"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "26-01-2020",
+    "Monto": 1989.61,
+    "Campania": "Campaña8",
+    "Views": 2545,
+    "Shares": 4813,
+    "Ubicacion": "Gila"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "18-06-2020",
+    "Monto": 1626.46,
+    "Campania": "Campaña8",
+    "Views": 8078,
+    "Shares": 6472,
+    "Ubicacion": "Sims"
+  },
+  {
+    "Name": "KFC",
+    "Fecha": "18-06-2016",
+    "Monto": 1338.8,
+    "Campania": "Campaña3",
+    "Views": 4763,
+    "Shares": 6903,
+    "Ubicacion": "Camino"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "06-07-2020",
+    "Monto": 3138.62,
+    "Campania": "Campaña4",
+    "Views": 1784,
+    "Shares": 6827,
+    "Ubicacion": "Dahlen"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "13-08-2020",
+    "Monto": 1991.41,
+    "Campania": "Campaña3",
+    "Views": 3069,
+    "Shares": 8983,
+    "Ubicacion": "Lopezo"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "18-12-2019",
+    "Monto": 1814.17,
+    "Campania": "Campaña8",
+    "Views": 1434,
+    "Shares": 4829,
+    "Ubicacion": "Valle"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "16-11-2020",
+    "Monto": 3348.68,
+    "Campania": "Campaña6",
+    "Views": 4421,
+    "Shares": 1031,
+    "Ubicacion": "Kennedyville"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "21-04-2017",
+    "Monto": 3347.01,
+    "Campania": "Campaña4",
+    "Views": 2783,
+    "Shares": 9405,
+    "Ubicacion": "Malo"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "20-01-2016",
+    "Monto": 2360.26,
+    "Campania": "Campaña3",
+    "Views": 1568,
+    "Shares": 6193,
+    "Ubicacion": "Orviston"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "19-06-2020",
+    "Monto": 1821.76,
+    "Campania": "Campaña6",
+    "Views": 7010,
+    "Shares": 1880,
+    "Ubicacion": "Johnsonburg"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "04-08-2015",
+    "Monto": 1414.29,
+    "Campania": "Campaña2",
+    "Views": 7953,
+    "Shares": 8894,
+    "Ubicacion": "Grenelefe"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "14-10-2014",
+    "Monto": 3848.82,
+    "Campania": "Campaña3",
+    "Views": 3416,
+    "Shares": 1574,
+    "Ubicacion": "Lindcove"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "16-10-2015",
+    "Monto": 2922.4,
+    "Campania": "Campaña5",
+    "Views": 1725,
+    "Shares": 2378,
+    "Ubicacion": "Derwood"
+  },
+  {
+    "Name": "KFC",
+    "Fecha": "14-07-2015",
+    "Monto": 3638.48,
+    "Campania": "Campaña6",
+    "Views": 9072,
+    "Shares": 6809,
+    "Ubicacion": "Nord"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "06-03-2017",
+    "Monto": 2234.03,
+    "Campania": "Campaña2",
+    "Views": 9938,
+    "Shares": 9092,
+    "Ubicacion": "Moquino"
+  },
+  {
+    "Name": "KFC",
+    "Fecha": "03-12-2019",
+    "Monto": 3357.39,
+    "Campania": "Campaña3",
+    "Views": 4371,
+    "Shares": 6865,
+    "Ubicacion": "Greer"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "21-03-2015",
+    "Monto": 3301.3,
+    "Campania": "Campaña8",
+    "Views": 6638,
+    "Shares": 4000,
+    "Ubicacion": "Brandywine"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "22-05-2019",
+    "Monto": 3388.46,
+    "Campania": "Campaña5",
+    "Views": 6989,
+    "Shares": 9744,
+    "Ubicacion": "Fairlee"
+  },
+  {
+    "Name": "MCDONALDS",
+    "Fecha": "08-02-2019",
+    "Monto": 1305.04,
+    "Campania": "Campaña7",
+    "Views": 5412,
+    "Shares": 3371,
+    "Ubicacion": "Levant"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "06-10-2014",
+    "Monto": 1259.94,
+    "Campania": "Campaña7",
+    "Views": 1801,
+    "Shares": 5200,
+    "Ubicacion": "Evergreen"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "15-10-2015",
+    "Monto": 1914.18,
+    "Campania": "Campaña2",
+    "Views": 5870,
+    "Shares": 3742,
+    "Ubicacion": "Golconda"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "21-02-2021",
+    "Monto": 2760.81,
+    "Campania": "Campaña3",
+    "Views": 1383,
+    "Shares": 1083,
+    "Ubicacion": "Defiance"
+  },
+  {
+    "Name": "KFC",
+    "Fecha": "22-04-2014",
+    "Monto": 1696.97,
+    "Campania": "Campaña7",
+    "Views": 6084,
+    "Shares": 3068,
+    "Ubicacion": "Mooresburg"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "16-09-2014",
+    "Monto": 3507.13,
+    "Campania": "Campaña7",
+    "Views": 8788,
+    "Shares": 1604,
+    "Ubicacion": "Allensworth"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "15-02-2015",
+    "Monto": 1599.42,
+    "Campania": "Campaña1",
+    "Views": 6083,
+    "Shares": 1130,
+    "Ubicacion": "Gulf"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "04-06-2019",
+    "Monto": 3873.83,
+    "Campania": "Campaña6",
+    "Views": 6074,
+    "Shares": 7348,
+    "Ubicacion": "Ola"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "17-05-2017",
+    "Monto": 2834.05,
+    "Campania": "Campaña8",
+    "Views": 3411,
+    "Shares": 8866,
+    "Ubicacion": "Fairmount"
+  },
+  {
+    "Name": "KFC",
+    "Fecha": "09-03-2015",
+    "Monto": 2840.78,
+    "Campania": "Campaña3",
+    "Views": 6410,
+    "Shares": 5347,
+    "Ubicacion": "Neibert"
+  },
+  {
+    "Name": "SUBWAY",
+    "Fecha": "19-04-2015",
+    "Monto": 2908.79,
+    "Campania": "Campaña5",
+    "Views": 3818,
+    "Shares": 1041,
+    "Ubicacion": "Chapin"
+  },
+  {
+    "Name": "KFC",
+    "Fecha": "15-04-2020",
+    "Monto": 3697.51,
+    "Campania": "Campaña2",
+    "Views": 7174,
+    "Shares": 7148,
+    "Ubicacion": "Frank"
+  },
+  {
+    "Name": "CHICK-FIL-A",
+    "Fecha": "20-11-2019",
+    "Monto": 3667.22,
+    "Campania": "Campaña4",
+    "Views": 2467,
+    "Shares": 1523,
+    "Ubicacion": "Snyderville"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "16-03-2014",
+    "Monto": 2731.85,
+    "Campania": "Campaña3",
+    "Views": 8173,
+    "Shares": 3448,
+    "Ubicacion": "Caspar"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "20-11-2014",
+    "Monto": 3178.46,
+    "Campania": "Campaña6",
+    "Views": 7692,
+    "Shares": 7371,
+    "Ubicacion": "Florence"
+  },
+  {
+    "Name": "MCDONALDS",
+    "Fecha": "23-10-2017",
+    "Monto": 3237.88,
+    "Campania": "Campaña3",
+    "Views": 9029,
+    "Shares": 3950,
+    "Ubicacion": "Rockingham"
+  },
+  {
+    "Name": "BURGER KING",
+    "Fecha": "27-05-2018",
+    "Monto": 1148.86,
+    "Campania": "Campaña6",
+    "Views": 4530,
+    "Shares": 5168,
+    "Ubicacion": "Romeville"
+  },
+  {
+    "Name": "KFC",
+    "Fecha": "26-09-2016",
+    "Monto": 2729.84,
+    "Campania": "Campaña2",
+    "Views": 2790,
+    "Shares": 2232,
+    "Ubicacion": "Worton"
+  }
+]);
