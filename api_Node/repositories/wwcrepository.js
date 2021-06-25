@@ -182,7 +182,8 @@ var WWCrepository = /** @class */ (function () {
         // obtener una conexion a la base dee datos
         // hacer el llamado a la base de datos
         var promise = new Promise(function (resolve, rejects) {
-            var sql = 'Exec sp_Post ' + time + ', ' + email;
+            var sql = "Exec sp_Post '" + time + "', '" + email + "'";
+            console.log(sql);
             WWCrepository.globalpool.then(function (pool) {
                 pool.request().query(sql)
                     .then(function (data) {
@@ -194,11 +195,11 @@ var WWCrepository = /** @class */ (function () {
         });
         return promise;
     };
-    WWCrepository.prototype.newhabit = function (longitude, latitude, email, title) {
+    WWCrepository.prototype.newhabit = function (longitude, latitude, email, title, fecha) {
         // obtener una conexion a la base dee datos
         // hacer el llamado a la base de datos
         var promise = new Promise(function (resolve, rejects) {
-            var sql = 'Exec sp_Checkin ' + longitude + ', ' + latitude + ', ' + email + ', ' + title;
+            var sql = "Exec sp_Checkin " + longitude + ", " + latitude + ", '" + email + "', '" + title + "', '" + fecha + "'";
             WWCrepository.globalpool.then(function (pool) {
                 pool.request().query(sql)
                     .then(function (data) {

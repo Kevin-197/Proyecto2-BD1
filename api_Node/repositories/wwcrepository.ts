@@ -202,7 +202,8 @@ export class WWCrepository {
 
         const promise = new Promise<void> (
             (resolve, rejects) => {
-                var sql = 'Exec sp_Post '+time+', '+email;
+                var sql = "Exec sp_Post '"+time+"', '"+email+"'";
+                console.log(sql);
                 WWCrepository.globalpool.then((pool:any) => {
                     pool.request().query(sql)
                     .then((data: any) =>{
@@ -225,7 +226,7 @@ export class WWCrepository {
 
         const promise = new Promise<void> (
             (resolve, rejects) => {
-                var sql = 'Exec sp_Checkin '+longitude+', '+latitude+', '+email+', '+title+', '+fecha;
+                var sql = "Exec sp_Checkin "+longitude+", "+latitude+", '"+email+"', '"+title+"', '"+fecha+"'";
                 WWCrepository.globalpool.then((pool:any) => {
                     pool.request().query(sql)
                     .then((data: any) =>{

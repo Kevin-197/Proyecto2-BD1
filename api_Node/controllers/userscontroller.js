@@ -24,8 +24,8 @@ var UserController = /** @class */ (function () {
     UserController.prototype.newPost = function (time, email) {
         return wwcrepository_1.WWCrepository.getInstance().newPost(time, email);
     };
-    UserController.prototype.newhabit = function (longitude, latitude, email, title) {
-        return wwcrepository_1.WWCrepository.getInstance().newhabit(longitude, latitude, email, title);
+    UserController.prototype.newhabit = function (longitude, latitude, email, title, fecha) {
+        return wwcrepository_1.WWCrepository.getInstance().newhabit(longitude, latitude, email, title, fecha);
     };
     return UserController;
 }());

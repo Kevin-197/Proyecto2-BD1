@@ -16,6 +16,7 @@ app.get("/globalRank", function (req, res) {
 });
 app.get("/post", function (req, res) {
     var time = req.query["time"].toString();
+    console.log(time);
     var email = req.query["email"].toString();
     userscontroller_1.UserController.getInstance().newPost(time, email)
         .then(function (value) {
@@ -30,7 +31,8 @@ app.get("/habit", function (req, res) {
     var latitude = Number(req.query["lat"]);
     var email = req.query["email"].toString();
     var title = req.query["title"].toString();
-    userscontroller_1.UserController.getInstance().newhabit(longitude, latitude, email, title)
+    var fecha = req.query["fecha"].toString();
+    userscontroller_1.UserController.getInstance().newhabit(longitude, latitude, email, title, fecha)
         .then(function (value) {
         res.json(value[0]);
     })["catch"](function (err) {

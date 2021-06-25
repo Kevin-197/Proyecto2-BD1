@@ -14,6 +14,7 @@ app.get("/globalRank", (req, res) => {
 });
 app.get("/post", (req, res) => {
     const time = req.query["time"].toString();
+    console.log(time);
     const email = req.query["email"].toString();
     UserController.getInstance().newPost(time, email)
     .then(
