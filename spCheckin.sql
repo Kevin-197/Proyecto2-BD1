@@ -1,8 +1,8 @@
 Drop procedure if exists sp_Checkin
 Create procedure sp_Checkin
 	(
-	@pLongitude Long,
-	@pLatitude Long,
+	@pLongitude Float,
+	@pLatitude Float,
 	@pEmail varchar(60),
 	@pHabitTitle varchar(60)
 	)
@@ -19,3 +19,15 @@ Create procedure sp_Checkin
 	
 END
 EXEC sp_Checkin 11000, 52,514, 'Another Computer', 'UsEr','20.20.20.20','Gorillaz_125011', 'Visa'
+
+
+Create procedure testsp
+	
+	as
+	begin
+	Insert into dbo.LogTypes (Name) Values ('Test1')
+	
+END
+
+Exec testsp	
+Select * from dbo.LogTypes
