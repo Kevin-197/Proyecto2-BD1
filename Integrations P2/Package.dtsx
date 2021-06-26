@@ -11,8 +11,8 @@
   DTS:LocaleID="5130"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="13"
-  DTS:VersionGUID="{301BCD5C-FBB2-4E5D-8AF5-68E69D8C3E01}">
+  DTS:VersionBuild="15"
+  DTS:VersionGUID="{7B11F7BA-1E49-427A-91DE-3DC846623CC2}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -39,7 +39,7 @@
           <DTS:Password
             DTS:Name="pwd"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQjfMlGM/xE+/k0aWk5/lmgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABx53IO+yf3YjA4Pcc9A4qWy/jSkOzEWdOT01hKTi4vigAAAAAOgAAAAAIAACAAAADOL11y/Ny+Ha0uPbTo5qIrglpnHCFbkDEcZvH9hI3LiyAAAABApEbauCoomVDXvmsO+wSJo1rZfE/dvRFRHHG3sNhH9UAAAACpv6sg3ZPndg5M6dYCrvpNpk/FsoXTi583cCd01yNhMr4N4BnHVRWFGJ+LqHix56vq8IonWfTWpmEg9RASUBxH</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQjfMlGM/xE+/k0aWk5/lmgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACYM9P0J2szB1OLIvULPL9pGLUNpiYzGBXnEbCT1TNlsQAAAAAOgAAAAAIAACAAAACLmIcOF43W1iV+FQNY6gz5vKiC+9Z8rgUqPO5ySdeZiSAAAAB2R4i3AAPGdmfmj9bfyZOdrRUwskvltXiN8oTflZy9BEAAAAAvfPrjveXFSl7bdW2tulLdfnMD5BgHttlVT1Mf+qKVo+Gzc9rVhM5TRKko2gojj5SP34N+mbFT5XsD+VcV2ZvM</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -56,7 +56,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQjfMlGM/xE+/k0aWk5/lmgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABUMbGK/GGBCUhCKoXzBvD4mbsktufOvPlbjJlTPRdVEwAAAAAOgAAAAAIAACAAAABjLrBWomgGoiwxF30ZmmGleBQglUwSre9u0oig4mI16iAAAACjRb7Mu0rBYWap1IGLMADN5WhR6enl7bNL9dXLoNqwK0AAAACT5kB78S5JEoquoiDqWQEsqEXLqZLo/Y51g6Z5ky1LrjyxLwAFvRKUpD+mZS9EZVyEXlmeMdivErz2Uw3pArB2</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQjfMlGM/xE+/k0aWk5/lmgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACn3lOIl6wO+HIvIeVDV3+tMiWKHOO09ruQGonhU4fYwAAAAAAOgAAAAAIAACAAAACf1gNzsLJdg76iFoERaIeR/u8slbnWl3UruS5fE77bRyAAAADrDFG+XEPgfiUlnaBfZjGkTsGqKeVYjJ/ikN+o2FutEUAAAACbH6MTntDAXPf2OGGAtfcEe56SsqS7ZKLIJexWPUpKPuO4tFWye+mhnk16TF0yAz4iDEjCS76xHE7vgQhrn5Sr</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -71,283 +71,13 @@
           <DTS:Password
             DTS:Name="pwd"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQjfMlGM/xE+/k0aWk5/lmgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACp5YtczgAGIFbm5UUC5Ru4/qwaP3p8Zx1ljTHIk/QurwAAAAAOgAAAAAIAACAAAADfw0EXWXvREV8uLsT9Is2PVp1kzd9IWMMMMdV6Hy8kIRAAAABFR/1pYYGEdU+0ZwzW7rG4QAAAAOxy2LrqTE0sbYdTCBw44t0z23JXJBs7YgDdv3BXyjrBWcP9FgqWFDRBNvLI7qRKo/b/028Ki2ejqUoeQC9A3lU</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQjfMlGM/xE+/k0aWk5/lmgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAofta3LVvYyvm5kpGsbrz8huLksfEtmWuSzfsXRcoLEgAAAAAOgAAAAAIAACAAAABNmqwppSEO7fnb1nWYfwFShr26TMvtV3XfAoEJNtGlaRAAAAB3D/L7rPce94IhlAFHkgyxQAAAALLZm65jIRJVx4POn/W03Es5emON8XDgr4l3Uh82Z2xNguy75FB5xzsaTQ0Qyq76igKR47Wv7RngwvI3ph/F4PY</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
   <DTS:Variables />
   <DTS:Executables>
-    <DTS:Executable
-      DTS:refId="Package\Data Flow Task"
-      DTS:CreationName="Microsoft.Pipeline"
-      DTS:Description="Data Flow Task"
-      DTS:DTSID="{6BF3BF98-D359-45DA-9A01-70438DB296A9}"
-      DTS:ExecutableType="Microsoft.Pipeline"
-      DTS:LocaleID="-1"
-      DTS:ObjectName="Data Flow Task"
-      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
-      <DTS:Variables />
-      <DTS:ObjectData>
-        <pipeline
-          version="1">
-          <components>
-            <component
-              refId="Package\Data Flow Task\ODBC Source"
-              componentClassID="Microsoft.SSISODBCSrc"
-              contactInfo="ODBC Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
-              description="ODBC Source"
-              name="ODBC Source"
-              usesDispositions="true"
-              version="1">
-              <properties>
-                <property
-                  dataType="System.String"
-                  description="The name of the table to be fetched."
-                  expressionType="Notify"
-                  name="TableName">AdsAmount</property>
-                <property
-                  dataType="System.String"
-                  description="The SQL command to be executed."
-                  expressionType="Notify"
-                  name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
-                <property
-                  dataType="System.Int32"
-                  description="Specify the number of rows fetched per batch."
-                  expressionType="Notify"
-                  name="BatchSize">1000</property>
-                <property
-                  dataType="System.Int32"
-                  description="Determines the chunk size allocation for LOB columns"
-                  expressionType="Notify"
-                  name="LobChunkSize">32768</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Determines how the component exposes CHAR columns. If False, CHAR columns are exposed as (multi-)byte strings (DT_STR), if True, CHAR columns are exposed as wide strings (DT_WSTR)"
-                  expressionType="Notify"
-                  name="ExposeCharColumnsAsUnicode">false</property>
-                <property
-                  dataType="System.Int32"
-                  description="The number of seconds to wait for an SQL statement to execute before returning to the application."
-                  expressionType="Notify"
-                  name="StatementTimeout">0</property>
-                <property
-                  dataType="System.Int32"
-                  description="The code page to use when code page information is unavailable from the data source."
-                  expressionType="Notify"
-                  name="DefaultCodePage">1252</property>
-                <property
-                  dataType="System.Int32"
-                  description="The method used for fetching data."
-                  expressionType="Notify"
-                  name="FetchMethod">1</property>
-                <property
-                  dataType="System.Int32"
-                  description="The ODBC C data type for binding numeric data."
-                  expressionType="Notify"
-                  name="BindNumericAs">0</property>
-                <property
-                  dataType="System.Int32"
-                  description="Determines how the component would bind columns of (multi)-byte string types (i.e., SQL_CHAR, SQL_VARCHAR, SQL_LONGVARCHAR). The options are: Unicode (SQL_C_WCHAR) and ANSI (SQL_C_CHAR)."
-                  expressionType="Notify"
-                  name="BindCharColumnsAs">0</property>
-                <property
-                  dataType="System.Int32"
-                  description="The mode used to access the database."
-                  expressionType="Notify"
-                  name="AccessMode"
-                  typeConverter="AccessMode">0</property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\Data Flow Task\ODBC Source.Connections[ODBCConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Simba MongoDB.root]"
-                  connectionManagerRefId="Package.ConnectionManagers[Simba MongoDB.root]"
-                  description="The ODBC runtime connection used to access the database."
-                  name="ODBCConnection" />
-              </connections>
-              <outputs>
-                <output
-                  refId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output]"
-                  errorRowDisposition="FailComponent"
-                  name="ODBC Source Output"
-                  truncationRowDisposition="FailComponent">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].Columns[_id]"
-                      dataType="wstr"
-                      externalMetadataColumnId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[_id]"
-                      length="255"
-                      lineageId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].Columns[_id]"
-                      name="_id" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].Columns[Name]"
-                      dataType="wstr"
-                      externalMetadataColumnId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Name]"
-                      length="255"
-                      lineageId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].Columns[Name]"
-                      name="Name" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].Columns[Fecha]"
-                      dataType="wstr"
-                      externalMetadataColumnId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Fecha]"
-                      length="255"
-                      lineageId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].Columns[Fecha]"
-                      name="Fecha" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].Columns[Monto]"
-                      dataType="r8"
-                      externalMetadataColumnId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Monto]"
-                      lineageId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].Columns[Monto]"
-                      name="Monto" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].Columns[Campania]"
-                      dataType="wstr"
-                      externalMetadataColumnId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Campania]"
-                      length="255"
-                      lineageId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].Columns[Campania]"
-                      name="Campania" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].Columns[Views]"
-                      dataType="r8"
-                      externalMetadataColumnId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Views]"
-                      lineageId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].Columns[Views]"
-                      name="Views" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].Columns[Shares]"
-                      dataType="r8"
-                      externalMetadataColumnId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Shares]"
-                      lineageId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].Columns[Shares]"
-                      name="Shares" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].Columns[Ubicacion]"
-                      dataType="wstr"
-                      externalMetadataColumnId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Ubicacion]"
-                      length="255"
-                      lineageId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].Columns[Ubicacion]"
-                      name="Ubicacion" />
-                  </outputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[_id]"
-                      dataType="wstr"
-                      length="255"
-                      name="_id" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Name]"
-                      dataType="wstr"
-                      length="255"
-                      name="Name" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Fecha]"
-                      dataType="wstr"
-                      length="255"
-                      name="Fecha" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Monto]"
-                      dataType="r8"
-                      name="Monto" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Campania]"
-                      dataType="wstr"
-                      length="255"
-                      name="Campania" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Views]"
-                      dataType="r8"
-                      name="Views" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Shares]"
-                      dataType="r8"
-                      name="Shares" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Ubicacion]"
-                      dataType="wstr"
-                      length="255"
-                      name="Ubicacion" />
-                  </externalMetadataColumns>
-                </output>
-                <output
-                  refId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Error Output]"
-                  isErrorOut="true"
-                  name="ODBC Source Error Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Error Output].Columns[_id]"
-                      dataType="wstr"
-                      externalMetadataColumnId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[_id]"
-                      length="255"
-                      lineageId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Error Output].Columns[_id]"
-                      name="_id" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Error Output].Columns[Name]"
-                      dataType="wstr"
-                      externalMetadataColumnId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Name]"
-                      length="255"
-                      lineageId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Error Output].Columns[Name]"
-                      name="Name" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Error Output].Columns[Fecha]"
-                      dataType="wstr"
-                      externalMetadataColumnId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Fecha]"
-                      length="255"
-                      lineageId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Error Output].Columns[Fecha]"
-                      name="Fecha" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Error Output].Columns[Monto]"
-                      dataType="r8"
-                      externalMetadataColumnId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Monto]"
-                      lineageId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Error Output].Columns[Monto]"
-                      name="Monto" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Error Output].Columns[Campania]"
-                      dataType="wstr"
-                      externalMetadataColumnId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Campania]"
-                      length="255"
-                      lineageId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Error Output].Columns[Campania]"
-                      name="Campania" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Error Output].Columns[Views]"
-                      dataType="r8"
-                      externalMetadataColumnId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Views]"
-                      lineageId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Error Output].Columns[Views]"
-                      name="Views" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Error Output].Columns[Shares]"
-                      dataType="r8"
-                      externalMetadataColumnId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Shares]"
-                      lineageId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Error Output].Columns[Shares]"
-                      name="Shares" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Error Output].Columns[Ubicacion]"
-                      dataType="wstr"
-                      externalMetadataColumnId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Ubicacion]"
-                      length="255"
-                      lineageId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Error Output].Columns[Ubicacion]"
-                      name="Ubicacion" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\ODBC Source.Outputs[ODBC Source Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-          </components>
-        </pipeline>
-      </DTS:ObjectData>
-    </DTS:Executable>
     <DTS:Executable
       DTS:refId="Package\Data Flow Task 1"
       DTS:CreationName="Microsoft.Pipeline"
@@ -998,6 +728,20 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
                       cachedName="NameRestaurant"
                       externalMetadataColumnId="Package\Data Flow Task 1\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[Name]"
                       lineageId="Package\Data Flow Task 1\Sort.Outputs[Sort Output].Columns[NameRestaurant]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task 1\ODBC Destination.Inputs[ODBC Destination Input].Columns[latitude]"
+                      cachedDataType="r8"
+                      cachedName="latitude"
+                      cachedSortKeyPosition="2"
+                      externalMetadataColumnId="Package\Data Flow Task 1\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[latitude]"
+                      lineageId="Package\Data Flow Task 1\Sort.Outputs[Sort Output].Columns[latitude]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task 1\ODBC Destination.Inputs[ODBC Destination Input].Columns[longitude]"
+                      cachedDataType="r8"
+                      cachedName="longitude"
+                      cachedSortKeyPosition="1"
+                      externalMetadataColumnId="Package\Data Flow Task 1\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[longitude]"
+                      lineageId="Package\Data Flow Task 1\Sort.Outputs[Sort Output].Columns[longitude]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -1019,6 +763,14 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
                       dataType="wstr"
                       length="255"
                       name="Address" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[latitude]"
+                      dataType="r8"
+                      name="latitude" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[longitude]"
+                      dataType="r8"
+                      name="longitude" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -1278,41 +1030,12 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
-          Size="150.4,41.6"
-          Id="Package\Data Flow Task"
-          TopLeft="143.571431016435,66.5294126977558" />
-        <NodeLayout
           Size="160,41.6"
           Id="Package\Data Flow Task 1"
           TopLeft="396.42857817971,61.1764714462122" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
-  <TaskHost
-    design-time-name="Package\Data Flow Task">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
-        <NodeLayout
-          Size="141.6,41.6"
-          Id="Package\Data Flow Task\ODBC Source"
-          TopLeft="136.428573751936,33.6470592954167" />
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\ODBC Source">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Data Flow Task 1">
     <LayoutInfo>
@@ -1323,51 +1046,21 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
           Id="Package\Data Flow Task 1\Lookup"
           TopLeft="293,184" />
         <NodeLayout
-          Size="162.4,41.6"
-          Id="Package\Data Flow Task 1\ODBC Destination"
-          TopLeft="539,302" />
+          Size="121.6,41.6"
+          Id="Package\Data Flow Task 1\Lookup 1"
+          TopLeft="498,206.6" />
         <NodeLayout
           Size="97.6,41.6"
           Id="Package\Data Flow Task 1\Sort"
           TopLeft="92,155.6" />
         <NodeLayout
+          Size="162.4,41.6"
+          Id="Package\Data Flow Task 1\ODBC Destination"
+          TopLeft="539,302" />
+        <NodeLayout
           Size="181.6,59.2"
           Id="Package\Data Flow Task 1\Excel Source"
           TopLeft="61,61" />
-        <EdgeLayout
-          Id="Package\Data Flow Task 1.Paths[Excel Source Output]"
-          TopLeft="151.8,120.2">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-11,35.4"
-              Start="0,0"
-              End="-11,27.9">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,13.7" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,13.7"
-                    Point2="0,17.7"
-                    Point3="-4,17.7" />
-                  <mssgle:LineSegment
-                    End="-6.99999999999997,17.7" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-6.99999999999997,17.7"
-                    Point2="-11,17.7"
-                    Point3="-11,21.7" />
-                  <mssgle:LineSegment
-                    End="-11,27.9" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task 1.Paths[Sort Output]"
           TopLeft="189.6,176.4">
@@ -1400,46 +1093,6 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="121.6,41.6"
-          Id="Package\Data Flow Task 1\Lookup 1"
-          TopLeft="498,206.6" />
-        <EdgeLayout
-          Id="Package\Data Flow Task 1.Paths[Lookup Match Output]"
-          TopLeft="405.8,204.8">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="92.1999999999999,22.6"
-              Start="0,0"
-              End="84.6999999999999,22.6">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="42.1,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="42.1,0"
-                    Point2="46.1,0"
-                    Point3="46.1,4" />
-                  <mssgle:LineSegment
-                    End="46.1,18.6" />
-                  <mssgle:CubicBezierSegment
-                    Point1="46.1,18.6"
-                    Point2="46.1,22.6"
-                    Point3="50.1,22.6" />
-                  <mssgle:LineSegment
-                    End="84.6999999999999,22.6" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-2.09138671875004,-17.609375,96.3827734375,11.609375"
-              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -1478,19 +1131,99 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task 1.Paths[Lookup Match Output]"
+          TopLeft="405.8,204.8">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="92.1999999999999,22.6"
+              Start="0,0"
+              End="84.6999999999999,22.6">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="42.1,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="42.1,0"
+                    Point2="46.1,0"
+                    Point3="46.1,4" />
+                  <mssgle:LineSegment
+                    End="46.1,18.6" />
+                  <mssgle:CubicBezierSegment
+                    Point1="46.1,18.6"
+                    Point2="46.1,22.6"
+                    Point3="50.1,22.6" />
+                  <mssgle:LineSegment
+                    End="84.6999999999999,22.6" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-2.09138671875004,-17.609375,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task 1.Paths[Excel Source Output]"
+          TopLeft="151.8,120.2">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-11,35.4"
+              Start="0,0"
+              End="-11,27.9">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,13.7" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,13.7"
+                    Point2="0,17.7"
+                    Point3="-4,17.7" />
+                  <mssgle:LineSegment
+                    End="-6.99999999999997,17.7" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-6.99999999999997,17.7"
+                    Point2="-11,17.7"
+                    Point3="-11,21.7" />
+                  <mssgle:LineSegment
+                    End="-11,27.9" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task 1\ODBC Destination">
+    design-time-name="Package\Data Flow Task 1\Lookup 1">
     <Properties>
       <Property>
-        <Name>DataSourceViewID</Name>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Restaurants]</Value>
       </Property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q2:string">Table</Value>
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -1508,25 +1241,15 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task 1\Lookup 1">
+    design-time-name="Package\Data Flow Task 1\ODBC Destination">
     <Properties>
       <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[Restaurants]</Value>
+        <Name>DataSourceViewID</Name>
       </Property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
+          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
