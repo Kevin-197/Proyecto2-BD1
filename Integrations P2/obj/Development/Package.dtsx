@@ -11,8 +11,8 @@
   DTS:LocaleID="5130"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="15"
-  DTS:VersionGUID="{7B11F7BA-1E49-427A-91DE-3DC846623CC2}">
+  DTS:VersionBuild="18"
+  DTS:VersionGUID="{DED9CDCB-E048-45CA-BB97-C6CD24200E7E}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -39,7 +39,7 @@
           <DTS:Password
             DTS:Name="pwd"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQjfMlGM/xE+/k0aWk5/lmgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA3FPTb0D2YjIgvodKdWZc84i05ucm2E1i1xLIk175MJAAAAAAOgAAAAAIAACAAAADjXsiSFHkxlrZ6aRK19GhLTLL5AE6hFMH7KMwLku/YIyAAAAArb/rOJS4vlkIsagTgGqiznVNozsae1dyQniS7+6dMv0AAAABlTyrDRWAcW8HbNZFpudslHlbClRGqtzg5eruV7nk9PyayIcJ2kl6oaRHWlmNsHJWexUeC5Rduhcrn8dCvniKC</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQjfMlGM/xE+/k0aWk5/lmgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACLeplUGUeFSf/lgPm02Pi33Y8O7xDDtaMzM1ADEiAyVgAAAAAOgAAAAAIAACAAAACXVBgQd8hCo8iCUUlxeF1Y/heuDdCCmmdamYnzeFph1iAAAAD/eteqi0DJp9cU3zUQ3fAbH4adxYBI0qL/e6+a68Ua5UAAAACbU9P4bk2L5sKETfyUYTw7vKmMRIHMBplCZhWgkhnV40AJIadyV4F8lY3uVF7rHtSgG+J3j0dXSLMhJpeVGUuF</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -56,7 +56,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQjfMlGM/xE+/k0aWk5/lmgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC2JpJau7dEdm73EXPKke65kxekTTfnCEywHMXKho3+hAAAAAAOgAAAAAIAACAAAACNzqT62pIhQjsM3aHZtdo8TKgGoEoyvsFwgZYy0NHR8yAAAAAciBQb8N87w5sxdzrm7dM3CXCzS8S6RkVowQLqey24qkAAAADw/eDHIVD6yYupbkfHT+QiLyR/xfZAgRmqb7GpWQNWrAG1YZKW2EohsVcfmrI8olmfbiu5bCZXHSx6q8MWoU43</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQjfMlGM/xE+/k0aWk5/lmgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD/Fq/H1vidhLceV6bfCnbVEvRKXCjanB4oHuTLocu5LwAAAAAOgAAAAAIAACAAAAC6GSJmicUvstWSjYceRTtVv5XTRIlA/LG1CumvP6/5zyAAAACoBqNmOg1UWN7Yu4r0gJqYUcAoGDR87lSy143osj+LQ0AAAADyFiRBcuw27vqHxgEUm5Zwdm4V7dFQ77LK8KIxkQSWhZAznVWxr183ywnz4sErvt8QAq1/AyMxb5ABvprw0ATz</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -71,7 +71,7 @@
           <DTS:Password
             DTS:Name="pwd"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQjfMlGM/xE+/k0aWk5/lmgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABhIKI3qLZ7XMTMSjAB9sC2J79Q/JJ//bPuAJ+SnMH8JwAAAAAOgAAAAAIAACAAAADN+WjuOf0rXuyCGuwoMZcwhKJ0UcQafVZfNhMxzKD5ThAAAAD3R6rlygr2/nVVcidl1TW+QAAAABhZgJqXKv49BH/z8MMoz0nXeTHWo1RlWokAsvTwuFyxetf+J4ZovvoNruQwnRAb3qK+oiqPWV7Yg567ajniCtI</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQjfMlGM/xE+/k0aWk5/lmgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABSLE3XQeI5kD6LjK+VQfqQGue3gamKSZ7yMF+Nv8VYDwAAAAAOgAAAAAIAACAAAADUDCroUsD2K4pXh+iKXsBg+v2oknnPWUg6J0Z8dIWbhRAAAAAs78FuXed3tiT9myKhgQCUQAAAAOfwC9aYMXvDk2bJuGfUOBRs5zHg/NoBovYsmbwC/j5VJTUqEenuDMwGr3gbp7v5pcGOsl0X7UE4nBx6VnEXosk</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -79,13 +79,13 @@
   <DTS:Variables />
   <DTS:Executables>
     <DTS:Executable
-      DTS:refId="Package\Data Flow Task 1"
+      DTS:refId="Package\Cargar Montos de Ads"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:DTSID="{EF1CF86F-A724-45F9-A4EF-2F8D1BDB3E60}"
+      DTS:DTSID="{50F1D710-ED7F-4989-A698-D982BBD94329}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Data Flow Task 1"
+      DTS:ObjectName="Cargar Montos de Ads"
       DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
       <DTS:ObjectData>
@@ -93,234 +93,287 @@
           version="1">
           <components>
             <component
-              refId="Package\Data Flow Task 1\Excel Source"
-              componentClassID="Microsoft.ExcelSource"
-              contactInfo="Excel Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
-              description="Excel Source"
-              name="Excel Source"
-              usesDispositions="true"
-              version="1">
+              refId="Package\Cargar Montos de Ads\Aggregate"
+              componentClassID="Microsoft.Aggregate"
+              contactInfo="Aggregate;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;3"
+              description="Aggregates data with functions such as Average, Sum, Count, Max, and Min. For example, group data to compute the sum of sales per product or the average visits per day."
+              name="Aggregate"
+              version="3">
               <properties>
                 <property
                   dataType="System.Int32"
-                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
-                  name="CommandTimeout">0</property>
+                  description="Specifies the approximate number of group by keys that the aggregation produces. Low indicates 500,000 key values, Medium indicates 5 million key values, and High indicates more than 25 million key values. Unspecified indicates no KeyScale value is used."
+                  name="KeyScale"
+                  typeConverter="KeyScaleType">0</property>
                 <property
-                  dataType="System.String"
-                  description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">Fast_Food_Restaurants$</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies the variable that contains the name of the database object used to open a rowset."
-                  name="OpenRowsetVariable"></property>
-                <property
-                  dataType="System.String"
-                  description="The SQL command to be executed."
-                  name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
-                <property
-                  dataType="System.String"
-                  description="The variable that contains the SQL command to be executed."
-                  name="SqlCommandVariable"></property>
+                  dataType="System.Null"
+                  description="Specifies the exact number of group by keys that the aggregation produces. If a KeyScale value is specified, the value in Keys takes precedence."
+                  name="Keys" />
                 <property
                   dataType="System.Int32"
-                  description="Specifies the mode used to access the database."
-                  name="AccessMode"
-                  typeConverter="AccessMode">0</property>
+                  description="Specifies the approximate number of distinct values in a column that the aggregation counts distinctly. Low indicates 500,000 key values, Medium indicates 5 million key values, and High indicates more than 25 million key values. Unspecified indicates no CountDistinctScale value is used."
+                  name="CountDistinctScale"
+                  typeConverter="KeyScaleType">0</property>
                 <property
-                  dataType="System.String"
-                  description="The mapping from parameters in the SQL command to variables."
-                  name="ParameterMapping"></property>
+                  dataType="System.Null"
+                  description="Specifies the exact number of distinct values in a column that the aggregation counts distinctly. If a CountDistinctScale value is specified, the value in CountDistinctKeys takes precedence."
+                  name="CountDistinctKeys" />
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage by which memory can be extended during the aggregation. Valid values are between 1 and 100."
+                  name="AutoExtendFactor">25</property>
               </properties>
-              <connections>
-                <connection
-                  refId="Package\Data Flow Task 1\Excel Source.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Administrador de conexiones con Excel]"
-                  connectionManagerRefId="Package.ConnectionManagers[Administrador de conexiones con Excel]"
-                  description="The OLE DB runtime connection used to access the database."
-                  name="OleDbConnection" />
-              </connections>
+              <inputs>
+                <input
+                  refId="Package\Cargar Montos de Ads\Aggregate.Inputs[Aggregate Input 1]"
+                  name="Aggregate Input 1">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Cargar Montos de Ads\Aggregate.Inputs[Aggregate Input 1].Columns[Fecha]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Fecha"
+                      lineageId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].Columns[Fecha]" />
+                    <inputColumn
+                      refId="Package\Cargar Montos de Ads\Aggregate.Inputs[Aggregate Input 1].Columns[Monto]"
+                      cachedDataType="r8"
+                      cachedName="Monto"
+                      lineageId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].Columns[Monto]" />
+                    <inputColumn
+                      refId="Package\Cargar Montos de Ads\Aggregate.Inputs[Aggregate Input 1].Columns[Views]"
+                      cachedDataType="r8"
+                      cachedName="Views"
+                      lineageId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].Columns[Views]" />
+                    <inputColumn
+                      refId="Package\Cargar Montos de Ads\Aggregate.Inputs[Aggregate Input 1].Columns[Shares]"
+                      cachedDataType="r8"
+                      cachedName="Shares"
+                      lineageId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].Columns[Shares]" />
+                    <inputColumn
+                      refId="Package\Cargar Montos de Ads\Aggregate.Inputs[Aggregate Input 1].Columns[LocationId]"
+                      cachedDataType="i8"
+                      cachedName="LocationId"
+                      lineageId="Package\Cargar Montos de Ads\Lookup.Outputs[Lookup Match Output].Columns[LocationId]" />
+                    <inputColumn
+                      refId="Package\Cargar Montos de Ads\Aggregate.Inputs[Aggregate Input 1].Columns[RestaurantId]"
+                      cachedDataType="i4"
+                      cachedName="RestaurantId"
+                      lineageId="Package\Cargar Montos de Ads\Lookup 1.Outputs[Lookup Match Output].Columns[RestaurantId]" />
+                    <inputColumn
+                      refId="Package\Cargar Montos de Ads\Aggregate.Inputs[Aggregate Input 1].Columns[Campañaid]"
+                      cachedDataType="i8"
+                      cachedName="Campañaid"
+                      lineageId="Package\Cargar Montos de Ads\Lookup 2.Outputs[Lookup Match Output].Columns[Campañaid]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
               <outputs>
                 <output
-                  refId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output]"
-                  name="Excel Source Output">
+                  refId="Package\Cargar Montos de Ads\Aggregate.Outputs[Aggregate Output 1]"
+                  name="Aggregate Output 1">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the approximate number of group by keys that the aggregation produces. Low indicates 500,000 key values, Medium indicates 5 million key values, and High indicates more than 25 million key values. Unspecified indicates no KeyScale value is used."
+                      name="KeyScale"
+                      typeConverter="KeyScaleType">0</property>
+                    <property
+                      dataType="System.Null"
+                      description="Specifies the exact number of group by keys that the aggregation produces. If a KeyScale value is specified, the value in Keys takes precedence."
+                      name="Keys" />
+                  </properties>
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].Columns[NameRestaurant]"
+                      refId="Package\Cargar Montos de Ads\Aggregate.Outputs[Aggregate Output 1].Columns[Fecha]"
                       dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[name]"
                       length="255"
-                      lineageId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].Columns[NameRestaurant]"
-                      name="NameRestaurant"
-                      truncationRowDisposition="FailComponent" />
+                      lineageId="Package\Cargar Montos de Ads\Aggregate.Outputs[Aggregate Output 1].Columns[Fecha]"
+                      name="Fecha">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the ID of the input column used in the aggregation."
+                          name="AggregationColumnId">#{Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].Columns[Fecha]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the type of aggregation."
+                          name="AggregationType"
+                          typeConverter="AggregationType">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indicates whether the column requires special handling because it may contain oversized data or it requires precision beyond a float data type."
+                          name="IsBig">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the string comparison options."
+                          name="AggregationComparisonFlags">0</property>
+                      </properties>
+                    </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].Columns[NameLocation]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[city]"
-                      length="255"
-                      lineageId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].Columns[NameLocation]"
-                      name="NameLocation"
-                      truncationRowDisposition="FailComponent" />
+                      refId="Package\Cargar Montos de Ads\Aggregate.Outputs[Aggregate Output 1].Columns[Monto]"
+                      dataType="r8"
+                      lineageId="Package\Cargar Montos de Ads\Aggregate.Outputs[Aggregate Output 1].Columns[Monto]"
+                      name="Monto">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the ID of the input column used in the aggregation."
+                          name="AggregationColumnId">#{Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].Columns[Monto]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the type of aggregation."
+                          name="AggregationType"
+                          typeConverter="AggregationType">4</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indicates whether the column requires special handling because it may contain oversized data or it requires precision beyond a float data type."
+                          name="IsBig">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the string comparison options."
+                          name="AggregationComparisonFlags">0</property>
+                      </properties>
+                    </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].Columns[latitude]"
+                      refId="Package\Cargar Montos de Ads\Aggregate.Outputs[Aggregate Output 1].Columns[Views]"
                       dataType="r8"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[latitude]"
-                      lineageId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].Columns[latitude]"
-                      name="latitude"
-                      truncationRowDisposition="FailComponent" />
+                      lineageId="Package\Cargar Montos de Ads\Aggregate.Outputs[Aggregate Output 1].Columns[Views]"
+                      name="Views">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the ID of the input column used in the aggregation."
+                          name="AggregationColumnId">#{Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].Columns[Views]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the type of aggregation."
+                          name="AggregationType"
+                          typeConverter="AggregationType">4</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indicates whether the column requires special handling because it may contain oversized data or it requires precision beyond a float data type."
+                          name="IsBig">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the string comparison options."
+                          name="AggregationComparisonFlags">0</property>
+                      </properties>
+                    </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].Columns[longitude]"
+                      refId="Package\Cargar Montos de Ads\Aggregate.Outputs[Aggregate Output 1].Columns[Shares]"
                       dataType="r8"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[longitude]"
-                      lineageId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].Columns[longitude]"
-                      name="longitude"
-                      truncationRowDisposition="FailComponent" />
+                      lineageId="Package\Cargar Montos de Ads\Aggregate.Outputs[Aggregate Output 1].Columns[Shares]"
+                      name="Shares">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the ID of the input column used in the aggregation."
+                          name="AggregationColumnId">#{Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].Columns[Shares]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the type of aggregation."
+                          name="AggregationType"
+                          typeConverter="AggregationType">4</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indicates whether the column requires special handling because it may contain oversized data or it requires precision beyond a float data type."
+                          name="IsBig">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the string comparison options."
+                          name="AggregationComparisonFlags">0</property>
+                      </properties>
+                    </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].Columns[address]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[address]"
-                      length="255"
-                      lineageId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].Columns[address]"
-                      name="address"
-                      truncationRowDisposition="FailComponent" />
-                  </outputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[id]"
-                      dataType="wstr"
-                      length="255"
-                      name="id" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[dateAdded]"
-                      dataType="wstr"
-                      length="255"
-                      name="dateAdded" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[dateUpdated]"
-                      dataType="wstr"
-                      length="255"
-                      name="dateUpdated" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[address]"
-                      dataType="wstr"
-                      length="255"
-                      name="address" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[categories]"
-                      dataType="wstr"
-                      length="255"
-                      name="categories" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[city]"
-                      dataType="wstr"
-                      length="255"
-                      name="city" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[country]"
-                      dataType="wstr"
-                      length="255"
-                      name="country" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[keys]"
-                      dataType="wstr"
-                      length="255"
-                      name="keys" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[latitude]"
-                      dataType="r8"
-                      name="latitude" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[longitude]"
-                      dataType="r8"
-                      name="longitude" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[name]"
-                      dataType="wstr"
-                      length="255"
-                      name="name" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[postalCode]"
-                      dataType="r8"
-                      name="postalCode" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[province]"
-                      dataType="wstr"
-                      length="255"
-                      name="province" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[sourceURLs]"
-                      dataType="nText"
-                      name="sourceURLs" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[websites]"
-                      dataType="wstr"
-                      length="255"
-                      name="websites" />
-                  </externalMetadataColumns>
-                </output>
-                <output
-                  refId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Error Output]"
-                  isErrorOut="true"
-                  name="Excel Source Error Output">
-                  <outputColumns>
+                      refId="Package\Cargar Montos de Ads\Aggregate.Outputs[Aggregate Output 1].Columns[LocationId]"
+                      dataType="i8"
+                      lineageId="Package\Cargar Montos de Ads\Aggregate.Outputs[Aggregate Output 1].Columns[LocationId]"
+                      name="LocationId">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the ID of the input column used in the aggregation."
+                          name="AggregationColumnId">#{Package\Cargar Montos de Ads\Lookup.Outputs[Lookup Match Output].Columns[LocationId]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the type of aggregation."
+                          name="AggregationType"
+                          typeConverter="AggregationType">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indicates whether the column requires special handling because it may contain oversized data or it requires precision beyond a float data type."
+                          name="IsBig">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the string comparison options."
+                          name="AggregationComparisonFlags">0</property>
+                      </properties>
+                    </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorCode]"
+                      refId="Package\Cargar Montos de Ads\Aggregate.Outputs[Aggregate Output 1].Columns[RestaurantId]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
+                      lineageId="Package\Cargar Montos de Ads\Aggregate.Outputs[Aggregate Output 1].Columns[RestaurantId]"
+                      name="RestaurantId">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the ID of the input column used in the aggregation."
+                          name="AggregationColumnId">#{Package\Cargar Montos de Ads\Lookup 1.Outputs[Lookup Match Output].Columns[RestaurantId]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the type of aggregation."
+                          name="AggregationType"
+                          typeConverter="AggregationType">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indicates whether the column requires special handling because it may contain oversized data or it requires precision beyond a float data type."
+                          name="IsBig">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the string comparison options."
+                          name="AggregationComparisonFlags">0</property>
+                      </properties>
+                    </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                    <outputColumn
-                      refId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Error Output].Columns[name]"
-                      dataType="wstr"
-                      length="255"
-                      lineageId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Error Output].Columns[name]"
-                      name="name" />
-                    <outputColumn
-                      refId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Error Output].Columns[city]"
-                      dataType="wstr"
-                      length="255"
-                      lineageId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Error Output].Columns[city]"
-                      name="city" />
-                    <outputColumn
-                      refId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Error Output].Columns[latitude]"
-                      dataType="r8"
-                      lineageId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Error Output].Columns[latitude]"
-                      name="latitude" />
-                    <outputColumn
-                      refId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Error Output].Columns[longitude]"
-                      dataType="r8"
-                      lineageId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Error Output].Columns[longitude]"
-                      name="longitude" />
-                    <outputColumn
-                      refId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Error Output].Columns[address]"
-                      dataType="wstr"
-                      length="255"
-                      lineageId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Error Output].Columns[address]"
-                      name="address" />
+                      refId="Package\Cargar Montos de Ads\Aggregate.Outputs[Aggregate Output 1].Columns[Campañaid]"
+                      dataType="i8"
+                      lineageId="Package\Cargar Montos de Ads\Aggregate.Outputs[Aggregate Output 1].Columns[Campañaid]"
+                      name="Campañaid">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the ID of the input column used in the aggregation."
+                          name="AggregationColumnId">#{Package\Cargar Montos de Ads\Lookup 2.Outputs[Lookup Match Output].Columns[Campañaid]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the type of aggregation."
+                          name="AggregationType"
+                          typeConverter="AggregationType">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indicates whether the column requires special handling because it may contain oversized data or it requires precision beyond a float data type."
+                          name="IsBig">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the string comparison options."
+                          name="AggregationComparisonFlags">0</property>
+                      </properties>
+                    </outputColumn>
                   </outputColumns>
                   <externalMetadataColumns />
                 </output>
               </outputs>
             </component>
             <component
-              refId="Package\Data Flow Task 1\Lookup"
+              refId="Package\Cargar Montos de Ads\Lookup"
               componentClassID="Microsoft.Lookup"
               contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
               description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
@@ -376,7 +429,7 @@ where [refTable].[NameLocation] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].Columns[NameLocation]};</property>
+                  name="ParameterMap">#{Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].Columns[Ubicacion]};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -388,7 +441,7 @@ where [refTable].[NameLocation] = ?</property>
               </properties>
               <connections>
                 <connection
-                  refId="Package\Data Flow Task 1\Lookup.Connections[OleDbConnection]"
+                  refId="Package\Cargar Montos de Ads\Lookup.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[LAPTOP-O7NC02DG\SQLSERVER.ChageitDB.sa]"
                   connectionManagerRefId="Package.ConnectionManagers[LAPTOP-O7NC02DG\SQLSERVER.ChageitDB.sa]"
                   description="Connection manager used to access lookup data."
@@ -396,15 +449,15 @@ where [refTable].[NameLocation] = ?</property>
               </connections>
               <inputs>
                 <input
-                  refId="Package\Data Flow Task 1\Lookup.Inputs[Lookup Input]"
+                  refId="Package\Cargar Montos de Ads\Lookup.Inputs[Lookup Input]"
                   name="Lookup Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Task 1\Lookup.Inputs[Lookup Input].Columns[NameLocation]"
+                      refId="Package\Cargar Montos de Ads\Lookup.Inputs[Lookup Input].Columns[Ubicacion]"
                       cachedDataType="wstr"
                       cachedLength="255"
-                      cachedName="NameLocation"
-                      lineageId="Package\Data Flow Task 1\Sort.Outputs[Sort Output].Columns[NameLocation]">
+                      cachedName="Ubicacion"
+                      lineageId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].Columns[Ubicacion]">
                       <properties>
                         <property
                           dataType="System.String"
@@ -422,17 +475,17 @@ where [refTable].[NameLocation] = ?</property>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Data Flow Task 1\Lookup.Outputs[Lookup Match Output]"
+                  refId="Package\Cargar Montos de Ads\Lookup.Outputs[Lookup Match Output]"
                   errorOrTruncationOperation="Lookup"
                   exclusionGroup="1"
                   name="Lookup Match Output"
-                  synchronousInputId="Package\Data Flow Task 1\Lookup.Inputs[Lookup Input]">
+                  synchronousInputId="Package\Cargar Montos de Ads\Lookup.Inputs[Lookup Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task 1\Lookup.Outputs[Lookup Match Output].Columns[LocationId]"
+                      refId="Package\Cargar Montos de Ads\Lookup.Outputs[Lookup Match Output].Columns[LocationId]"
                       dataType="i8"
                       errorOrTruncationOperation="Copy Column"
-                      lineageId="Package\Data Flow Task 1\Lookup.Outputs[Lookup Match Output].Columns[LocationId]"
+                      lineageId="Package\Cargar Montos de Ads\Lookup.Outputs[Lookup Match Output].Columns[LocationId]"
                       name="LocationId"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -446,30 +499,30 @@ where [refTable].[NameLocation] = ?</property>
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Data Flow Task 1\Lookup.Outputs[Lookup No Match Output]"
+                  refId="Package\Cargar Montos de Ads\Lookup.Outputs[Lookup No Match Output]"
                   description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
                   exclusionGroup="1"
                   name="Lookup No Match Output"
-                  synchronousInputId="Package\Data Flow Task 1\Lookup.Inputs[Lookup Input]">
+                  synchronousInputId="Package\Cargar Montos de Ads\Lookup.Inputs[Lookup Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Data Flow Task 1\Lookup.Outputs[Lookup Error Output]"
+                  refId="Package\Cargar Montos de Ads\Lookup.Outputs[Lookup Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Lookup Error Output"
-                  synchronousInputId="Package\Data Flow Task 1\Lookup.Inputs[Lookup Input]">
+                  synchronousInputId="Package\Cargar Montos de Ads\Lookup.Inputs[Lookup Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task 1\Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      refId="Package\Cargar Montos de Ads\Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task 1\Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      lineageId="Package\Cargar Montos de Ads\Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Data Flow Task 1\Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      refId="Package\Cargar Montos de Ads\Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task 1\Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\Cargar Montos de Ads\Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -478,7 +531,7 @@ where [refTable].[NameLocation] = ?</property>
               </outputs>
             </component>
             <component
-              refId="Package\Data Flow Task 1\Lookup 1"
+              refId="Package\Cargar Montos de Ads\Lookup 1"
               componentClassID="Microsoft.Lookup"
               contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
               description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
@@ -498,7 +551,7 @@ where [refTable].[NameLocation] = ?</property>
                   expressionType="Notify"
                   name="SqlCommandParam"
                   UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dbo].[Restaurants]) [refTable]
-where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
+where [refTable].[Name] = ? and [refTable].[LocationId] = ?</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the type of connection used to access the reference dataset."
@@ -529,12 +582,12 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
                 <property
                   dataType="System.String"
                   description="Indicates whether to reference metadata in an XML format."
-                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="RestaurantId" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Name" dataType="DT_WSTR" length="255" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="LocationId" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Address" dataType="DT_WSTR" length="255" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="RestaurantId" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Name" dataType="DT_WSTR" length="255" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="LocationId" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Address" dataType="DT_WSTR" length="255" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="latitude" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="longitude" dataType="DT_R8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
                 <property
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\Data Flow Task 1\Sort.Outputs[Sort Output].Columns[NameRestaurant]};#{Package\Data Flow Task 1\Sort.Outputs[Sort Output].Columns[address]};</property>
+                  name="ParameterMap">#{Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].Columns[Name]};#{Package\Cargar Montos de Ads\Lookup.Outputs[Lookup Match Output].Columns[LocationId]};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -546,7 +599,7 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
               </properties>
               <connections>
                 <connection
-                  refId="Package\Data Flow Task 1\Lookup 1.Connections[OleDbConnection]"
+                  refId="Package\Cargar Montos de Ads\Lookup 1.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[LAPTOP-O7NC02DG\SQLSERVER.ChageitDB.sa]"
                   connectionManagerRefId="Package.ConnectionManagers[LAPTOP-O7NC02DG\SQLSERVER.ChageitDB.sa]"
                   description="Connection manager used to access lookup data."
@@ -554,20 +607,19 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
               </connections>
               <inputs>
                 <input
-                  refId="Package\Data Flow Task 1\Lookup 1.Inputs[Lookup Input]"
+                  refId="Package\Cargar Montos de Ads\Lookup 1.Inputs[Lookup Input]"
                   name="Lookup Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Task 1\Lookup 1.Inputs[Lookup Input].Columns[NameRestaurant]"
-                      cachedDataType="wstr"
-                      cachedLength="255"
-                      cachedName="NameRestaurant"
-                      lineageId="Package\Data Flow Task 1\Sort.Outputs[Sort Output].Columns[NameRestaurant]">
+                      refId="Package\Cargar Montos de Ads\Lookup 1.Inputs[Lookup Input].Columns[LocationId]"
+                      cachedDataType="i8"
+                      cachedName="LocationId"
+                      lineageId="Package\Cargar Montos de Ads\Lookup.Outputs[Lookup Match Output].Columns[LocationId]">
                       <properties>
                         <property
                           dataType="System.String"
                           description="Specifies the column in the reference table that a column joins."
-                          name="JoinToReferenceColumn">Name</property>
+                          name="JoinToReferenceColumn">LocationId</property>
                         <property
                           dataType="System.Null"
                           description="Specifies the column in the reference table from which a column is copied."
@@ -575,16 +627,16 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Data Flow Task 1\Lookup 1.Inputs[Lookup Input].Columns[address]"
+                      refId="Package\Cargar Montos de Ads\Lookup 1.Inputs[Lookup Input].Columns[Name]"
                       cachedDataType="wstr"
                       cachedLength="255"
-                      cachedName="address"
-                      lineageId="Package\Data Flow Task 1\Sort.Outputs[Sort Output].Columns[address]">
+                      cachedName="Name"
+                      lineageId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].Columns[Name]">
                       <properties>
                         <property
                           dataType="System.String"
                           description="Specifies the column in the reference table that a column joins."
-                          name="JoinToReferenceColumn">Address</property>
+                          name="JoinToReferenceColumn">Name</property>
                         <property
                           dataType="System.Null"
                           description="Specifies the column in the reference table from which a column is copied."
@@ -597,38 +649,54 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Data Flow Task 1\Lookup 1.Outputs[Lookup Match Output]"
+                  refId="Package\Cargar Montos de Ads\Lookup 1.Outputs[Lookup Match Output]"
                   errorOrTruncationOperation="Lookup"
                   exclusionGroup="1"
                   name="Lookup Match Output"
-                  synchronousInputId="Package\Data Flow Task 1\Lookup 1.Inputs[Lookup Input]">
+                  synchronousInputId="Package\Cargar Montos de Ads\Lookup 1.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Cargar Montos de Ads\Lookup 1.Outputs[Lookup Match Output].Columns[RestaurantId]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Copy Column"
+                      lineageId="Package\Cargar Montos de Ads\Lookup 1.Outputs[Lookup Match Output].Columns[RestaurantId]"
+                      name="RestaurantId"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn">RestaurantId</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Data Flow Task 1\Lookup 1.Outputs[Lookup No Match Output]"
+                  refId="Package\Cargar Montos de Ads\Lookup 1.Outputs[Lookup No Match Output]"
                   description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
                   exclusionGroup="1"
                   name="Lookup No Match Output"
-                  synchronousInputId="Package\Data Flow Task 1\Lookup 1.Inputs[Lookup Input]">
+                  synchronousInputId="Package\Cargar Montos de Ads\Lookup 1.Inputs[Lookup Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Data Flow Task 1\Lookup 1.Outputs[Lookup Error Output]"
+                  refId="Package\Cargar Montos de Ads\Lookup 1.Outputs[Lookup Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Lookup Error Output"
-                  synchronousInputId="Package\Data Flow Task 1\Lookup 1.Inputs[Lookup Input]">
+                  synchronousInputId="Package\Cargar Montos de Ads\Lookup 1.Inputs[Lookup Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task 1\Lookup 1.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      refId="Package\Cargar Montos de Ads\Lookup 1.Outputs[Lookup Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task 1\Lookup 1.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      lineageId="Package\Cargar Montos de Ads\Lookup 1.Outputs[Lookup Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Data Flow Task 1\Lookup 1.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      refId="Package\Cargar Montos de Ads\Lookup 1.Outputs[Lookup Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task 1\Lookup 1.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\Cargar Montos de Ads\Lookup 1.Outputs[Lookup Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -637,11 +705,814 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
               </outputs>
             </component>
             <component
-              refId="Package\Data Flow Task 1\ODBC Destination"
+              refId="Package\Cargar Montos de Ads\Lookup 2"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
+              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
+              name="Lookup 2"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement that generates the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select CONVERT ( nvarchar(255) , Name)NameCamp, Campañaid from dbo.Campañas;</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select CONVERT ( nvarchar(255) , Name)NameCamp, Campañaid from dbo.Campañas;) [refTable]
+where [refTable].[NameCamp] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of connection used to access the reference dataset."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the cache type of the lookup table."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">1</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indicates whether to reference metadata in an XML format."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="NameCamp" dataType="DT_WSTR" length="255" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Campañaid" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
+                  name="ParameterMap">#{Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].Columns[Campania]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Cargar Montos de Ads\Lookup 2.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[LAPTOP-O7NC02DG\SQLSERVER.ChageitDB.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-O7NC02DG\SQLSERVER.ChageitDB.sa]"
+                  description="Connection manager used to access lookup data."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Cargar Montos de Ads\Lookup 2.Inputs[Lookup Input]"
+                  name="Lookup Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Cargar Montos de Ads\Lookup 2.Inputs[Lookup Input].Columns[Campania]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Campania"
+                      lineageId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].Columns[Campania]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">NameCamp</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Cargar Montos de Ads\Lookup 2.Outputs[Lookup Match Output]"
+                  errorOrTruncationOperation="Lookup"
+                  exclusionGroup="1"
+                  name="Lookup Match Output"
+                  synchronousInputId="Package\Cargar Montos de Ads\Lookup 2.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Cargar Montos de Ads\Lookup 2.Outputs[Lookup Match Output].Columns[Campañaid]"
+                      dataType="i8"
+                      errorOrTruncationOperation="Copy Column"
+                      lineageId="Package\Cargar Montos de Ads\Lookup 2.Outputs[Lookup Match Output].Columns[Campañaid]"
+                      name="Campañaid"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn">Campañaid</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Cargar Montos de Ads\Lookup 2.Outputs[Lookup No Match Output]"
+                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
+                  exclusionGroup="1"
+                  name="Lookup No Match Output"
+                  synchronousInputId="Package\Cargar Montos de Ads\Lookup 2.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Cargar Montos de Ads\Lookup 2.Outputs[Lookup Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Lookup Error Output"
+                  synchronousInputId="Package\Cargar Montos de Ads\Lookup 2.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Cargar Montos de Ads\Lookup 2.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Cargar Montos de Ads\Lookup 2.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Cargar Montos de Ads\Lookup 2.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Cargar Montos de Ads\Lookup 2.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Cargar Montos de Ads\Lookup 3"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
+              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
+              name="Lookup 3"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement that generates the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select CONVERT ( nvarchar(255) , Date)Fecha, CampañaId, RestaurantId from dbo.AdsAmount;</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select CONVERT ( nvarchar(255) , Date)Fecha, CampañaId, RestaurantId from dbo.AdsAmount;) [refTable]
+where [refTable].[Fecha] = ? and [refTable].[RestaurantId] = ? and [refTable].[CampañaId] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of connection used to access the reference dataset."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the cache type of the lookup table."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">1</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indicates whether to reference metadata in an XML format."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="Fecha" dataType="DT_WSTR" length="255" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="CampañaId" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="RestaurantId" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
+                  name="ParameterMap">#{Package\Cargar Montos de Ads\Aggregate.Outputs[Aggregate Output 1].Columns[Fecha]};#{Package\Cargar Montos de Ads\Aggregate.Outputs[Aggregate Output 1].Columns[RestaurantId]};#{Package\Cargar Montos de Ads\Aggregate.Outputs[Aggregate Output 1].Columns[Campañaid]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Cargar Montos de Ads\Lookup 3.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[LAPTOP-O7NC02DG\SQLSERVER.ChageitDB.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-O7NC02DG\SQLSERVER.ChageitDB.sa]"
+                  description="Connection manager used to access lookup data."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Cargar Montos de Ads\Lookup 3.Inputs[Lookup Input]"
+                  name="Lookup Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Cargar Montos de Ads\Lookup 3.Inputs[Lookup Input].Columns[Fecha]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Fecha"
+                      lineageId="Package\Cargar Montos de Ads\Aggregate.Outputs[Aggregate Output 1].Columns[Fecha]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">Fecha</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Cargar Montos de Ads\Lookup 3.Inputs[Lookup Input].Columns[Campañaid]"
+                      cachedDataType="i8"
+                      cachedName="Campañaid"
+                      lineageId="Package\Cargar Montos de Ads\Aggregate.Outputs[Aggregate Output 1].Columns[Campañaid]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">CampañaId</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Cargar Montos de Ads\Lookup 3.Inputs[Lookup Input].Columns[RestaurantId]"
+                      cachedDataType="i4"
+                      cachedName="RestaurantId"
+                      lineageId="Package\Cargar Montos de Ads\Aggregate.Outputs[Aggregate Output 1].Columns[RestaurantId]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">RestaurantId</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Cargar Montos de Ads\Lookup 3.Outputs[Lookup Match Output]"
+                  errorOrTruncationOperation="Lookup"
+                  exclusionGroup="1"
+                  name="Lookup Match Output"
+                  synchronousInputId="Package\Cargar Montos de Ads\Lookup 3.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Cargar Montos de Ads\Lookup 3.Outputs[Lookup No Match Output]"
+                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
+                  exclusionGroup="1"
+                  name="Lookup No Match Output"
+                  synchronousInputId="Package\Cargar Montos de Ads\Lookup 3.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Cargar Montos de Ads\Lookup 3.Outputs[Lookup Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Lookup Error Output"
+                  synchronousInputId="Package\Cargar Montos de Ads\Lookup 3.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Cargar Montos de Ads\Lookup 3.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Cargar Montos de Ads\Lookup 3.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Cargar Montos de Ads\Lookup 3.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Cargar Montos de Ads\Lookup 3.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Cargar Montos de Ads\ODBC Destination"
               componentClassID="Microsoft.SSISODBCDst"
               contactInfo="ODBC Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
               description="ODBC Destination"
               name="ODBC Destination"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="The name of the table to be fetched."
+                  expressionType="Notify"
+                  name="TableName">"dbo"."AdsAmount"</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specify the number of rows fetched per batch."
+                  expressionType="Notify"
+                  name="BatchSize">1000</property>
+                <property
+                  dataType="System.Int32"
+                  description="The number of rows inserted under the same transaction."
+                  expressionType="Notify"
+                  name="TransactionSize">1000</property>
+                <property
+                  dataType="System.Int32"
+                  description="Determines the chunk size allocation for LOB columns"
+                  expressionType="Notify"
+                  name="LobChunkSize">32768</property>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds to wait for an SQL statement to execute before returning to the application."
+                  expressionType="Notify"
+                  name="StatementTimeout">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="The code page to use when code page information is unavailable from the data source."
+                  expressionType="Notify"
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Int32"
+                  description="The method used for inserting data. Possible values are 'Batch' or 'Row by row'."
+                  expressionType="Notify"
+                  name="InsertMethod">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="The ODBC C data type for binding numeric data."
+                  expressionType="Notify"
+                  name="BindNumericAs">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Determines how the component would bind columns of (multi)-byte string types (i.e., SQL_CHAR, SQL_VARCHAR, SQL_LONGVARCHAR). The options are: Unicode (SQL_C_WCHAR) and ANSI (SQL_C_CHAR)."
+                  expressionType="Notify"
+                  name="BindCharColumnsAs">0</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Cargar Montos de Ads\ODBC Destination.Connections[ODBCConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Changeit.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[Changeit.sa]"
+                  description="The ODBC runtime connection used to access the database."
+                  name="ODBCConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Cargar Montos de Ads\ODBC Destination.Inputs[ODBC Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="ODBC Destination Input"
+                  truncationRowDisposition="FailComponent">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Destination.Inputs[ODBC Destination Input].Columns[Views]"
+                      cachedDataType="r8"
+                      cachedName="Views"
+                      externalMetadataColumnId="Package\Cargar Montos de Ads\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[Views]"
+                      lineageId="Package\Cargar Montos de Ads\Aggregate.Outputs[Aggregate Output 1].Columns[Views]" />
+                    <inputColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Destination.Inputs[ODBC Destination Input].Columns[Shares]"
+                      cachedDataType="r8"
+                      cachedName="Shares"
+                      externalMetadataColumnId="Package\Cargar Montos de Ads\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[Shares]"
+                      lineageId="Package\Cargar Montos de Ads\Aggregate.Outputs[Aggregate Output 1].Columns[Shares]" />
+                    <inputColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Destination.Inputs[ODBC Destination Input].Columns[RestaurantId]"
+                      cachedDataType="i4"
+                      cachedName="RestaurantId"
+                      externalMetadataColumnId="Package\Cargar Montos de Ads\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[RestaurantId]"
+                      lineageId="Package\Cargar Montos de Ads\Aggregate.Outputs[Aggregate Output 1].Columns[RestaurantId]" />
+                    <inputColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Destination.Inputs[ODBC Destination Input].Columns[Campañaid]"
+                      cachedDataType="i8"
+                      cachedName="Campañaid"
+                      externalMetadataColumnId="Package\Cargar Montos de Ads\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[CampañaId]"
+                      lineageId="Package\Cargar Montos de Ads\Aggregate.Outputs[Aggregate Output 1].Columns[Campañaid]" />
+                    <inputColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Destination.Inputs[ODBC Destination Input].Columns[Fecha]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Fecha"
+                      externalMetadataColumnId="Package\Cargar Montos de Ads\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[Date]"
+                      lineageId="Package\Cargar Montos de Ads\Aggregate.Outputs[Aggregate Output 1].Columns[Fecha]" />
+                    <inputColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Destination.Inputs[ODBC Destination Input].Columns[Monto]"
+                      cachedDataType="r8"
+                      cachedName="Monto"
+                      externalMetadataColumnId="Package\Cargar Montos de Ads\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[Amount]"
+                      lineageId="Package\Cargar Montos de Ads\Aggregate.Outputs[Aggregate Output 1].Columns[Monto]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[AdsAmountId]"
+                      dataType="i8"
+                      name="AdsAmountId" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[RestaurantId]"
+                      dataType="i4"
+                      name="RestaurantId" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[CampañaId]"
+                      dataType="i8"
+                      name="CampañaId" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[Date]"
+                      dataType="wstr"
+                      length="10"
+                      name="Date" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[Amount]"
+                      dataType="i4"
+                      name="Amount" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[Shares]"
+                      dataType="i4"
+                      name="Shares" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[Views]"
+                      dataType="i4"
+                      name="Views" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Cargar Montos de Ads\ODBC Destination.Outputs[ODBC Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="ODBC Destination Error Output"
+                  synchronousInputId="Package\Cargar Montos de Ads\ODBC Destination.Inputs[ODBC Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Destination.Outputs[ODBC Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Cargar Montos de Ads\ODBC Destination.Outputs[ODBC Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Destination.Outputs[ODBC Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Cargar Montos de Ads\ODBC Destination.Outputs[ODBC Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Cargar Montos de Ads\ODBC Source"
+              componentClassID="Microsoft.SSISODBCSrc"
+              contactInfo="ODBC Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="ODBC Source"
+              name="ODBC Source"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="The name of the table to be fetched."
+                  expressionType="Notify"
+                  name="TableName">AdsAmount</property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specify the number of rows fetched per batch."
+                  expressionType="Notify"
+                  name="BatchSize">1000</property>
+                <property
+                  dataType="System.Int32"
+                  description="Determines the chunk size allocation for LOB columns"
+                  expressionType="Notify"
+                  name="LobChunkSize">32768</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines how the component exposes CHAR columns. If False, CHAR columns are exposed as (multi-)byte strings (DT_STR), if True, CHAR columns are exposed as wide strings (DT_WSTR)"
+                  expressionType="Notify"
+                  name="ExposeCharColumnsAsUnicode">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds to wait for an SQL statement to execute before returning to the application."
+                  expressionType="Notify"
+                  name="StatementTimeout">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="The code page to use when code page information is unavailable from the data source."
+                  expressionType="Notify"
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Int32"
+                  description="The method used for fetching data."
+                  expressionType="Notify"
+                  name="FetchMethod">1</property>
+                <property
+                  dataType="System.Int32"
+                  description="The ODBC C data type for binding numeric data."
+                  expressionType="Notify"
+                  name="BindNumericAs">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Determines how the component would bind columns of (multi)-byte string types (i.e., SQL_CHAR, SQL_VARCHAR, SQL_LONGVARCHAR). The options are: Unicode (SQL_C_WCHAR) and ANSI (SQL_C_CHAR)."
+                  expressionType="Notify"
+                  name="BindCharColumnsAs">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="The mode used to access the database."
+                  expressionType="Notify"
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Cargar Montos de Ads\ODBC Source.Connections[ODBCConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Simba MongoDB.root]"
+                  connectionManagerRefId="Package.ConnectionManagers[Simba MongoDB.root]"
+                  description="The ODBC runtime connection used to access the database."
+                  name="ODBCConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output]"
+                  errorRowDisposition="FailComponent"
+                  name="ODBC Source Output"
+                  truncationRowDisposition="FailComponent">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].Columns[_id]"
+                      dataType="wstr"
+                      externalMetadataColumnId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[_id]"
+                      length="255"
+                      lineageId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].Columns[_id]"
+                      name="_id" />
+                    <outputColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].Columns[Name]"
+                      dataType="wstr"
+                      externalMetadataColumnId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Name]"
+                      length="255"
+                      lineageId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].Columns[Name]"
+                      name="Name" />
+                    <outputColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].Columns[Fecha]"
+                      dataType="wstr"
+                      externalMetadataColumnId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Fecha]"
+                      length="255"
+                      lineageId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].Columns[Fecha]"
+                      name="Fecha" />
+                    <outputColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].Columns[Monto]"
+                      dataType="r8"
+                      externalMetadataColumnId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Monto]"
+                      lineageId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].Columns[Monto]"
+                      name="Monto" />
+                    <outputColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].Columns[Campania]"
+                      dataType="wstr"
+                      externalMetadataColumnId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Campania]"
+                      length="255"
+                      lineageId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].Columns[Campania]"
+                      name="Campania" />
+                    <outputColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].Columns[Views]"
+                      dataType="r8"
+                      externalMetadataColumnId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Views]"
+                      lineageId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].Columns[Views]"
+                      name="Views" />
+                    <outputColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].Columns[Shares]"
+                      dataType="r8"
+                      externalMetadataColumnId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Shares]"
+                      lineageId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].Columns[Shares]"
+                      name="Shares" />
+                    <outputColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].Columns[Ubicacion]"
+                      dataType="wstr"
+                      externalMetadataColumnId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Ubicacion]"
+                      length="255"
+                      lineageId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].Columns[Ubicacion]"
+                      name="Ubicacion" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[_id]"
+                      dataType="wstr"
+                      length="255"
+                      name="_id" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Name]"
+                      dataType="wstr"
+                      length="255"
+                      name="Name" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Fecha]"
+                      dataType="wstr"
+                      length="255"
+                      name="Fecha" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Monto]"
+                      dataType="r8"
+                      name="Monto" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Campania]"
+                      dataType="wstr"
+                      length="255"
+                      name="Campania" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Views]"
+                      dataType="r8"
+                      name="Views" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Shares]"
+                      dataType="r8"
+                      name="Shares" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Ubicacion]"
+                      dataType="wstr"
+                      length="255"
+                      name="Ubicacion" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Error Output]"
+                  isErrorOut="true"
+                  name="ODBC Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Error Output].Columns[_id]"
+                      dataType="wstr"
+                      externalMetadataColumnId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[_id]"
+                      length="255"
+                      lineageId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Error Output].Columns[_id]"
+                      name="_id" />
+                    <outputColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Error Output].Columns[Name]"
+                      dataType="wstr"
+                      externalMetadataColumnId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Name]"
+                      length="255"
+                      lineageId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Error Output].Columns[Name]"
+                      name="Name" />
+                    <outputColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Error Output].Columns[Fecha]"
+                      dataType="wstr"
+                      externalMetadataColumnId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Fecha]"
+                      length="255"
+                      lineageId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Error Output].Columns[Fecha]"
+                      name="Fecha" />
+                    <outputColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Error Output].Columns[Monto]"
+                      dataType="r8"
+                      externalMetadataColumnId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Monto]"
+                      lineageId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Error Output].Columns[Monto]"
+                      name="Monto" />
+                    <outputColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Error Output].Columns[Campania]"
+                      dataType="wstr"
+                      externalMetadataColumnId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Campania]"
+                      length="255"
+                      lineageId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Error Output].Columns[Campania]"
+                      name="Campania" />
+                    <outputColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Error Output].Columns[Views]"
+                      dataType="r8"
+                      externalMetadataColumnId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Views]"
+                      lineageId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Error Output].Columns[Views]"
+                      name="Views" />
+                    <outputColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Error Output].Columns[Shares]"
+                      dataType="r8"
+                      externalMetadataColumnId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Shares]"
+                      lineageId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Error Output].Columns[Shares]"
+                      name="Shares" />
+                    <outputColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Error Output].Columns[Ubicacion]"
+                      dataType="wstr"
+                      externalMetadataColumnId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output].ExternalColumns[Ubicacion]"
+                      length="255"
+                      lineageId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Error Output].Columns[Ubicacion]"
+                      name="Ubicacion" />
+                    <outputColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Cargar Montos de Ads.Paths[Aggregate Output 1]"
+              endId="Package\Cargar Montos de Ads\Lookup 3.Inputs[Lookup Input]"
+              name="Aggregate Output 1"
+              startId="Package\Cargar Montos de Ads\Aggregate.Outputs[Aggregate Output 1]" />
+            <path
+              refId="Package\Cargar Montos de Ads.Paths[Lookup Match Output]"
+              endId="Package\Cargar Montos de Ads\Lookup 1.Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\Cargar Montos de Ads\Lookup.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Cargar Montos de Ads.Paths[Lookup Match Output1]"
+              endId="Package\Cargar Montos de Ads\Lookup 2.Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\Cargar Montos de Ads\Lookup 1.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Cargar Montos de Ads.Paths[Lookup Match Output2]"
+              endId="Package\Cargar Montos de Ads\Aggregate.Inputs[Aggregate Input 1]"
+              name="Lookup Match Output"
+              startId="Package\Cargar Montos de Ads\Lookup 2.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Cargar Montos de Ads.Paths[Lookup No Match Output]"
+              endId="Package\Cargar Montos de Ads\ODBC Destination.Inputs[ODBC Destination Input]"
+              name="Lookup No Match Output"
+              startId="Package\Cargar Montos de Ads\Lookup 3.Outputs[Lookup No Match Output]" />
+            <path
+              refId="Package\Cargar Montos de Ads.Paths[ODBC Source Output]"
+              endId="Package\Cargar Montos de Ads\Lookup.Inputs[Lookup Input]"
+              name="ODBC Source Output"
+              startId="Package\Cargar Montos de Ads\ODBC Source.Outputs[ODBC Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Cargar Restaurantes"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{EF1CF86F-A724-45F9-A4EF-2F8D1BDB3E60}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Cargar Restaurantes"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Cargar Restaurantes\Destino en la base sql"
+              componentClassID="Microsoft.SSISODBCDst"
+              contactInfo="ODBC Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="ODBC Destination"
+              name="Destino en la base sql"
               usesDispositions="true"
               version="1">
               <properties>
@@ -693,7 +1564,7 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
               </properties>
               <connections>
                 <connection
-                  refId="Package\Data Flow Task 1\ODBC Destination.Connections[ODBCConnection]"
+                  refId="Package\Cargar Restaurantes\Destino en la base sql.Connections[ODBCConnection]"
                   connectionManagerID="Package.ConnectionManagers[Changeit.sa]"
                   connectionManagerRefId="Package.ConnectionManagers[Changeit.sa]"
                   description="The ODBC runtime connection used to access the database."
@@ -701,7 +1572,7 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
               </connections>
               <inputs>
                 <input
-                  refId="Package\Data Flow Task 1\ODBC Destination.Inputs[ODBC Destination Input]"
+                  refId="Package\Cargar Restaurantes\Destino en la base sql.Inputs[ODBC Destination Input]"
                   errorOrTruncationOperation="Insert"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
@@ -709,66 +1580,66 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
                   truncationRowDisposition="FailComponent">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Task 1\ODBC Destination.Inputs[ODBC Destination Input].Columns[address]"
+                      refId="Package\Cargar Restaurantes\Destino en la base sql.Inputs[ODBC Destination Input].Columns[address]"
                       cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="address"
-                      externalMetadataColumnId="Package\Data Flow Task 1\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[Address]"
-                      lineageId="Package\Data Flow Task 1\Sort.Outputs[Sort Output].Columns[address]" />
+                      externalMetadataColumnId="Package\Cargar Restaurantes\Destino en la base sql.Inputs[ODBC Destination Input].ExternalColumns[Address]"
+                      lineageId="Package\Cargar Restaurantes\Sort.Outputs[Sort Output].Columns[address]" />
                     <inputColumn
-                      refId="Package\Data Flow Task 1\ODBC Destination.Inputs[ODBC Destination Input].Columns[LocationId]"
+                      refId="Package\Cargar Restaurantes\Destino en la base sql.Inputs[ODBC Destination Input].Columns[LocationId]"
                       cachedDataType="i8"
                       cachedName="LocationId"
-                      externalMetadataColumnId="Package\Data Flow Task 1\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[LocationId]"
-                      lineageId="Package\Data Flow Task 1\Lookup.Outputs[Lookup Match Output].Columns[LocationId]" />
+                      externalMetadataColumnId="Package\Cargar Restaurantes\Destino en la base sql.Inputs[ODBC Destination Input].ExternalColumns[LocationId]"
+                      lineageId="Package\Cargar Restaurantes\Join con locations.Outputs[Lookup Match Output].Columns[LocationId]" />
                     <inputColumn
-                      refId="Package\Data Flow Task 1\ODBC Destination.Inputs[ODBC Destination Input].Columns[NameRestaurant]"
+                      refId="Package\Cargar Restaurantes\Destino en la base sql.Inputs[ODBC Destination Input].Columns[NameRestaurant]"
                       cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="NameRestaurant"
-                      externalMetadataColumnId="Package\Data Flow Task 1\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[Name]"
-                      lineageId="Package\Data Flow Task 1\Sort.Outputs[Sort Output].Columns[NameRestaurant]" />
+                      externalMetadataColumnId="Package\Cargar Restaurantes\Destino en la base sql.Inputs[ODBC Destination Input].ExternalColumns[Name]"
+                      lineageId="Package\Cargar Restaurantes\Sort.Outputs[Sort Output].Columns[NameRestaurant]" />
                     <inputColumn
-                      refId="Package\Data Flow Task 1\ODBC Destination.Inputs[ODBC Destination Input].Columns[latitude]"
+                      refId="Package\Cargar Restaurantes\Destino en la base sql.Inputs[ODBC Destination Input].Columns[latitude]"
                       cachedDataType="r8"
                       cachedName="latitude"
                       cachedSortKeyPosition="2"
-                      externalMetadataColumnId="Package\Data Flow Task 1\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[latitude]"
-                      lineageId="Package\Data Flow Task 1\Sort.Outputs[Sort Output].Columns[latitude]" />
+                      externalMetadataColumnId="Package\Cargar Restaurantes\Destino en la base sql.Inputs[ODBC Destination Input].ExternalColumns[latitude]"
+                      lineageId="Package\Cargar Restaurantes\Sort.Outputs[Sort Output].Columns[latitude]" />
                     <inputColumn
-                      refId="Package\Data Flow Task 1\ODBC Destination.Inputs[ODBC Destination Input].Columns[longitude]"
+                      refId="Package\Cargar Restaurantes\Destino en la base sql.Inputs[ODBC Destination Input].Columns[longitude]"
                       cachedDataType="r8"
                       cachedName="longitude"
                       cachedSortKeyPosition="1"
-                      externalMetadataColumnId="Package\Data Flow Task 1\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[longitude]"
-                      lineageId="Package\Data Flow Task 1\Sort.Outputs[Sort Output].Columns[longitude]" />
+                      externalMetadataColumnId="Package\Cargar Restaurantes\Destino en la base sql.Inputs[ODBC Destination Input].ExternalColumns[longitude]"
+                      lineageId="Package\Cargar Restaurantes\Sort.Outputs[Sort Output].Columns[longitude]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task 1\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[RestaurantId]"
+                      refId="Package\Cargar Restaurantes\Destino en la base sql.Inputs[ODBC Destination Input].ExternalColumns[RestaurantId]"
                       dataType="i4"
                       name="RestaurantId" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task 1\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[Name]"
+                      refId="Package\Cargar Restaurantes\Destino en la base sql.Inputs[ODBC Destination Input].ExternalColumns[Name]"
                       dataType="wstr"
                       length="255"
                       name="Name" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task 1\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[LocationId]"
+                      refId="Package\Cargar Restaurantes\Destino en la base sql.Inputs[ODBC Destination Input].ExternalColumns[LocationId]"
                       dataType="i8"
                       name="LocationId" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task 1\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[Address]"
+                      refId="Package\Cargar Restaurantes\Destino en la base sql.Inputs[ODBC Destination Input].ExternalColumns[Address]"
                       dataType="wstr"
                       length="255"
                       name="Address" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task 1\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[latitude]"
+                      refId="Package\Cargar Restaurantes\Destino en la base sql.Inputs[ODBC Destination Input].ExternalColumns[latitude]"
                       dataType="r8"
                       name="latitude" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task 1\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[longitude]"
+                      refId="Package\Cargar Restaurantes\Destino en la base sql.Inputs[ODBC Destination Input].ExternalColumns[longitude]"
                       dataType="r8"
                       name="longitude" />
                   </externalMetadataColumns>
@@ -776,22 +1647,22 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Data Flow Task 1\ODBC Destination.Outputs[ODBC Destination Error Output]"
+                  refId="Package\Cargar Restaurantes\Destino en la base sql.Outputs[ODBC Destination Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="ODBC Destination Error Output"
-                  synchronousInputId="Package\Data Flow Task 1\ODBC Destination.Inputs[ODBC Destination Input]">
+                  synchronousInputId="Package\Cargar Restaurantes\Destino en la base sql.Inputs[ODBC Destination Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task 1\ODBC Destination.Outputs[ODBC Destination Error Output].Columns[ErrorCode]"
+                      refId="Package\Cargar Restaurantes\Destino en la base sql.Outputs[ODBC Destination Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task 1\ODBC Destination.Outputs[ODBC Destination Error Output].Columns[ErrorCode]"
+                      lineageId="Package\Cargar Restaurantes\Destino en la base sql.Outputs[ODBC Destination Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Data Flow Task 1\ODBC Destination.Outputs[ODBC Destination Error Output].Columns[ErrorColumn]"
+                      refId="Package\Cargar Restaurantes\Destino en la base sql.Outputs[ODBC Destination Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task 1\ODBC Destination.Outputs[ODBC Destination Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\Cargar Restaurantes\Destino en la base sql.Outputs[ODBC Destination Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -800,7 +1671,392 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
               </outputs>
             </component>
             <component
-              refId="Package\Data Flow Task 1\Sort"
+              refId="Package\Cargar Restaurantes\Join con locations"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
+              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
+              name="Join con locations"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement that generates the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select CONVERT ( nvarchar(255) , Name)NameLocation, LocationId from dbo.Locations;</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select CONVERT ( nvarchar(255) , Name)NameLocation, LocationId from dbo.Locations;) [refTable]
+where [refTable].[NameLocation] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of connection used to access the reference dataset."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the cache type of the lookup table."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">1</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indicates whether to reference metadata in an XML format."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="NameLocation" dataType="DT_WSTR" length="255" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="LocationId" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
+                  name="ParameterMap">#{Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].Columns[NameLocation]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Cargar Restaurantes\Join con locations.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[LAPTOP-O7NC02DG\SQLSERVER.ChageitDB.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-O7NC02DG\SQLSERVER.ChageitDB.sa]"
+                  description="Connection manager used to access lookup data."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Cargar Restaurantes\Join con locations.Inputs[Lookup Input]"
+                  name="Lookup Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Cargar Restaurantes\Join con locations.Inputs[Lookup Input].Columns[NameLocation]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="NameLocation"
+                      lineageId="Package\Cargar Restaurantes\Sort.Outputs[Sort Output].Columns[NameLocation]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">NameLocation</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Cargar Restaurantes\Join con locations.Outputs[Lookup Match Output]"
+                  errorOrTruncationOperation="Lookup"
+                  exclusionGroup="1"
+                  name="Lookup Match Output"
+                  synchronousInputId="Package\Cargar Restaurantes\Join con locations.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Cargar Restaurantes\Join con locations.Outputs[Lookup Match Output].Columns[LocationId]"
+                      dataType="i8"
+                      errorOrTruncationOperation="Copy Column"
+                      lineageId="Package\Cargar Restaurantes\Join con locations.Outputs[Lookup Match Output].Columns[LocationId]"
+                      name="LocationId"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn">LocationId</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Cargar Restaurantes\Join con locations.Outputs[Lookup No Match Output]"
+                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
+                  exclusionGroup="1"
+                  name="Lookup No Match Output"
+                  synchronousInputId="Package\Cargar Restaurantes\Join con locations.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Cargar Restaurantes\Join con locations.Outputs[Lookup Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Lookup Error Output"
+                  synchronousInputId="Package\Cargar Restaurantes\Join con locations.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Cargar Restaurantes\Join con locations.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Cargar Restaurantes\Join con locations.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Cargar Restaurantes\Join con locations.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Cargar Restaurantes\Join con locations.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Cargar Restaurantes\Restaurantes"
+              componentClassID="Microsoft.ExcelSource"
+              contactInfo="Excel Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Excel Source"
+              name="Restaurantes"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">Fast_Food_Restaurants$</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="The mapping from parameters in the SQL command to variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Cargar Restaurantes\Restaurantes.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Administrador de conexiones con Excel]"
+                  connectionManagerRefId="Package.ConnectionManagers[Administrador de conexiones con Excel]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output]"
+                  name="Excel Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].Columns[NameRestaurant]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].ExternalColumns[name]"
+                      length="255"
+                      lineageId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].Columns[NameRestaurant]"
+                      name="NameRestaurant"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].Columns[NameLocation]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].ExternalColumns[city]"
+                      length="255"
+                      lineageId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].Columns[NameLocation]"
+                      name="NameLocation"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].Columns[latitude]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].ExternalColumns[latitude]"
+                      lineageId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].Columns[latitude]"
+                      name="latitude"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].Columns[longitude]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].ExternalColumns[longitude]"
+                      lineageId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].Columns[longitude]"
+                      name="longitude"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].Columns[address]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].ExternalColumns[address]"
+                      length="255"
+                      lineageId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].Columns[address]"
+                      name="address"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].ExternalColumns[id]"
+                      dataType="wstr"
+                      length="255"
+                      name="id" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].ExternalColumns[dateAdded]"
+                      dataType="wstr"
+                      length="255"
+                      name="dateAdded" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].ExternalColumns[dateUpdated]"
+                      dataType="wstr"
+                      length="255"
+                      name="dateUpdated" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].ExternalColumns[address]"
+                      dataType="wstr"
+                      length="255"
+                      name="address" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].ExternalColumns[categories]"
+                      dataType="wstr"
+                      length="255"
+                      name="categories" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].ExternalColumns[city]"
+                      dataType="wstr"
+                      length="255"
+                      name="city" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].ExternalColumns[country]"
+                      dataType="wstr"
+                      length="255"
+                      name="country" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].ExternalColumns[keys]"
+                      dataType="wstr"
+                      length="255"
+                      name="keys" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].ExternalColumns[latitude]"
+                      dataType="r8"
+                      name="latitude" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].ExternalColumns[longitude]"
+                      dataType="r8"
+                      name="longitude" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].ExternalColumns[name]"
+                      dataType="wstr"
+                      length="255"
+                      name="name" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].ExternalColumns[postalCode]"
+                      dataType="r8"
+                      name="postalCode" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].ExternalColumns[province]"
+                      dataType="wstr"
+                      length="255"
+                      name="province" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].ExternalColumns[sourceURLs]"
+                      dataType="nText"
+                      name="sourceURLs" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].ExternalColumns[websites]"
+                      dataType="wstr"
+                      length="255"
+                      name="websites" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Error Output]"
+                  isErrorOut="true"
+                  name="Excel Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                    <outputColumn
+                      refId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Error Output].Columns[name]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Error Output].Columns[name]"
+                      name="name" />
+                    <outputColumn
+                      refId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Error Output].Columns[city]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Error Output].Columns[city]"
+                      name="city" />
+                    <outputColumn
+                      refId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Error Output].Columns[latitude]"
+                      dataType="r8"
+                      lineageId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Error Output].Columns[latitude]"
+                      name="latitude" />
+                    <outputColumn
+                      refId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Error Output].Columns[longitude]"
+                      dataType="r8"
+                      lineageId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Error Output].Columns[longitude]"
+                      name="longitude" />
+                    <outputColumn
+                      refId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Error Output].Columns[address]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Error Output].Columns[address]"
+                      name="address" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Cargar Restaurantes\Sort"
               componentClassID="Microsoft.Sort"
               contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
               description="Sorts input data in ascending or descending order when it cannot be sorted at its source. For example, sort sales data by 'customer id' before it is written to a flat file and delivered to another department. Note: We do not recommend this transformation for large data flows."
@@ -819,14 +2075,14 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
               </properties>
               <inputs>
                 <input
-                  refId="Package\Data Flow Task 1\Sort.Inputs[Sort Input]"
+                  refId="Package\Cargar Restaurantes\Sort.Inputs[Sort Input]"
                   name="Sort Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Task 1\Sort.Inputs[Sort Input].Columns[latitude]"
+                      refId="Package\Cargar Restaurantes\Sort.Inputs[Sort Input].Columns[latitude]"
                       cachedDataType="r8"
                       cachedName="latitude"
-                      lineageId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].Columns[latitude]">
+                      lineageId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].Columns[latitude]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -839,10 +2095,10 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Data Flow Task 1\Sort.Inputs[Sort Input].Columns[longitude]"
+                      refId="Package\Cargar Restaurantes\Sort.Inputs[Sort Input].Columns[longitude]"
                       cachedDataType="r8"
                       cachedName="longitude"
-                      lineageId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].Columns[longitude]">
+                      lineageId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].Columns[longitude]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -855,11 +2111,11 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Data Flow Task 1\Sort.Inputs[Sort Input].Columns[NameRestaurant]"
+                      refId="Package\Cargar Restaurantes\Sort.Inputs[Sort Input].Columns[NameRestaurant]"
                       cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="NameRestaurant"
-                      lineageId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].Columns[NameRestaurant]">
+                      lineageId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].Columns[NameRestaurant]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -872,11 +2128,11 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Data Flow Task 1\Sort.Inputs[Sort Input].Columns[NameLocation]"
+                      refId="Package\Cargar Restaurantes\Sort.Inputs[Sort Input].Columns[NameLocation]"
                       cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="NameLocation"
-                      lineageId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].Columns[NameLocation]">
+                      lineageId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].Columns[NameLocation]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -889,11 +2145,11 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Data Flow Task 1\Sort.Inputs[Sort Input].Columns[address]"
+                      refId="Package\Cargar Restaurantes\Sort.Inputs[Sort Input].Columns[address]"
                       cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="address"
-                      lineageId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].Columns[address]">
+                      lineageId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].Columns[address]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -911,14 +2167,14 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Data Flow Task 1\Sort.Outputs[Sort Output]"
+                  refId="Package\Cargar Restaurantes\Sort.Outputs[Sort Output]"
                   isSorted="true"
                   name="Sort Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task 1\Sort.Outputs[Sort Output].Columns[latitude]"
+                      refId="Package\Cargar Restaurantes\Sort.Outputs[Sort Output].Columns[latitude]"
                       dataType="r8"
-                      lineageId="Package\Data Flow Task 1\Sort.Outputs[Sort Output].Columns[latitude]"
+                      lineageId="Package\Cargar Restaurantes\Sort.Outputs[Sort Output].Columns[latitude]"
                       name="latitude"
                       sortKeyPosition="2">
                       <properties>
@@ -926,13 +2182,13 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].Columns[latitude]}</property>
+                          name="SortColumnId">#{Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].Columns[latitude]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task 1\Sort.Outputs[Sort Output].Columns[longitude]"
+                      refId="Package\Cargar Restaurantes\Sort.Outputs[Sort Output].Columns[longitude]"
                       dataType="r8"
-                      lineageId="Package\Data Flow Task 1\Sort.Outputs[Sort Output].Columns[longitude]"
+                      lineageId="Package\Cargar Restaurantes\Sort.Outputs[Sort Output].Columns[longitude]"
                       name="longitude"
                       sortKeyPosition="1">
                       <properties>
@@ -940,51 +2196,210 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].Columns[longitude]}</property>
+                          name="SortColumnId">#{Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].Columns[longitude]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task 1\Sort.Outputs[Sort Output].Columns[NameRestaurant]"
+                      refId="Package\Cargar Restaurantes\Sort.Outputs[Sort Output].Columns[NameRestaurant]"
                       dataType="wstr"
                       length="255"
-                      lineageId="Package\Data Flow Task 1\Sort.Outputs[Sort Output].Columns[NameRestaurant]"
+                      lineageId="Package\Cargar Restaurantes\Sort.Outputs[Sort Output].Columns[NameRestaurant]"
                       name="NameRestaurant">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].Columns[NameRestaurant]}</property>
+                          name="SortColumnId">#{Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].Columns[NameRestaurant]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task 1\Sort.Outputs[Sort Output].Columns[NameLocation]"
+                      refId="Package\Cargar Restaurantes\Sort.Outputs[Sort Output].Columns[NameLocation]"
                       dataType="wstr"
                       length="255"
-                      lineageId="Package\Data Flow Task 1\Sort.Outputs[Sort Output].Columns[NameLocation]"
+                      lineageId="Package\Cargar Restaurantes\Sort.Outputs[Sort Output].Columns[NameLocation]"
                       name="NameLocation">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].Columns[NameLocation]}</property>
+                          name="SortColumnId">#{Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].Columns[NameLocation]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task 1\Sort.Outputs[Sort Output].Columns[address]"
+                      refId="Package\Cargar Restaurantes\Sort.Outputs[Sort Output].Columns[address]"
                       dataType="wstr"
                       length="255"
-                      lineageId="Package\Data Flow Task 1\Sort.Outputs[Sort Output].Columns[address]"
+                      lineageId="Package\Cargar Restaurantes\Sort.Outputs[Sort Output].Columns[address]"
                       name="address">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output].Columns[address]}</property>
+                          name="SortColumnId">#{Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output].Columns[address]}</property>
                       </properties>
                     </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Cargar Restaurantes\Verificar repetidos en la base"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
+              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
+              name="Verificar repetidos en la base"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement that generates the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dbo].[Restaurants]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dbo].[Restaurants]) [refTable]
+where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of connection used to access the reference dataset."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the cache type of the lookup table."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">1</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indicates whether to reference metadata in an XML format."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="RestaurantId" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Name" dataType="DT_WSTR" length="255" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="LocationId" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Address" dataType="DT_WSTR" length="255" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
+                  name="ParameterMap">#{Package\Cargar Restaurantes\Sort.Outputs[Sort Output].Columns[NameRestaurant]};#{Package\Cargar Restaurantes\Sort.Outputs[Sort Output].Columns[address]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Cargar Restaurantes\Verificar repetidos en la base.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[LAPTOP-O7NC02DG\SQLSERVER.ChageitDB.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-O7NC02DG\SQLSERVER.ChageitDB.sa]"
+                  description="Connection manager used to access lookup data."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Cargar Restaurantes\Verificar repetidos en la base.Inputs[Lookup Input]"
+                  name="Lookup Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Cargar Restaurantes\Verificar repetidos en la base.Inputs[Lookup Input].Columns[NameRestaurant]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="NameRestaurant"
+                      lineageId="Package\Cargar Restaurantes\Sort.Outputs[Sort Output].Columns[NameRestaurant]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">Name</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Cargar Restaurantes\Verificar repetidos en la base.Inputs[Lookup Input].Columns[address]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="address"
+                      lineageId="Package\Cargar Restaurantes\Sort.Outputs[Sort Output].Columns[address]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">Address</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Cargar Restaurantes\Verificar repetidos en la base.Outputs[Lookup Match Output]"
+                  errorOrTruncationOperation="Lookup"
+                  exclusionGroup="1"
+                  name="Lookup Match Output"
+                  synchronousInputId="Package\Cargar Restaurantes\Verificar repetidos en la base.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Cargar Restaurantes\Verificar repetidos en la base.Outputs[Lookup No Match Output]"
+                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
+                  exclusionGroup="1"
+                  name="Lookup No Match Output"
+                  synchronousInputId="Package\Cargar Restaurantes\Verificar repetidos en la base.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Cargar Restaurantes\Verificar repetidos en la base.Outputs[Lookup Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Lookup Error Output"
+                  synchronousInputId="Package\Cargar Restaurantes\Verificar repetidos en la base.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Cargar Restaurantes\Verificar repetidos en la base.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Cargar Restaurantes\Verificar repetidos en la base.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Cargar Restaurantes\Verificar repetidos en la base.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Cargar Restaurantes\Verificar repetidos en la base.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
                   </outputColumns>
                   <externalMetadataColumns />
                 </output>
@@ -993,25 +2408,25 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
           </components>
           <paths>
             <path
-              refId="Package\Data Flow Task 1.Paths[Excel Source Output]"
-              endId="Package\Data Flow Task 1\Sort.Inputs[Sort Input]"
+              refId="Package\Cargar Restaurantes.Paths[Excel Source Output]"
+              endId="Package\Cargar Restaurantes\Sort.Inputs[Sort Input]"
               name="Excel Source Output"
-              startId="Package\Data Flow Task 1\Excel Source.Outputs[Excel Source Output]" />
+              startId="Package\Cargar Restaurantes\Restaurantes.Outputs[Excel Source Output]" />
             <path
-              refId="Package\Data Flow Task 1.Paths[Lookup Match Output]"
-              endId="Package\Data Flow Task 1\Lookup 1.Inputs[Lookup Input]"
+              refId="Package\Cargar Restaurantes.Paths[Lookup Match Output]"
+              endId="Package\Cargar Restaurantes\Verificar repetidos en la base.Inputs[Lookup Input]"
               name="Lookup Match Output"
-              startId="Package\Data Flow Task 1\Lookup.Outputs[Lookup Match Output]" />
+              startId="Package\Cargar Restaurantes\Join con locations.Outputs[Lookup Match Output]" />
             <path
-              refId="Package\Data Flow Task 1.Paths[Lookup No Match Output]"
-              endId="Package\Data Flow Task 1\ODBC Destination.Inputs[ODBC Destination Input]"
+              refId="Package\Cargar Restaurantes.Paths[Lookup No Match Output]"
+              endId="Package\Cargar Restaurantes\Destino en la base sql.Inputs[ODBC Destination Input]"
               name="Lookup No Match Output"
-              startId="Package\Data Flow Task 1\Lookup 1.Outputs[Lookup No Match Output]" />
+              startId="Package\Cargar Restaurantes\Verificar repetidos en la base.Outputs[Lookup No Match Output]" />
             <path
-              refId="Package\Data Flow Task 1.Paths[Sort Output]"
-              endId="Package\Data Flow Task 1\Lookup.Inputs[Lookup Input]"
+              refId="Package\Cargar Restaurantes.Paths[Sort Output]"
+              endId="Package\Cargar Restaurantes\Join con locations.Inputs[Lookup Input]"
               name="Sort Output"
-              startId="Package\Data Flow Task 1\Sort.Outputs[Sort Output]" />
+              startId="Package\Cargar Restaurantes\Sort.Outputs[Sort Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -1030,46 +2445,50 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
-          Size="160,41.6"
-          Id="Package\Data Flow Task 1"
-          TopLeft="396.42857817971,61.1764714462122" />
+          Size="174.4,41.6"
+          Id="Package\Cargar Restaurantes"
+          TopLeft="100.71428742944,55.058824301591" />
+        <NodeLayout
+          Size="182.4,41.6"
+          Id="Package\Cargar Montos de Ads"
+          TopLeft="345.714291601765,56.5882360877463" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
   <TaskHost
-    design-time-name="Package\Data Flow Task 1">
+    design-time-name="Package\Cargar Restaurantes">
     <LayoutInfo>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="112.8,41.6"
-          Id="Package\Data Flow Task 1\Lookup"
+          Size="161.6,41.6"
+          Id="Package\Cargar Restaurantes\Join con locations"
           TopLeft="293,184" />
         <NodeLayout
-          Size="121.6,41.6"
-          Id="Package\Data Flow Task 1\Lookup 1"
+          Size="215.2,41.6"
+          Id="Package\Cargar Restaurantes\Verificar repetidos en la base"
           TopLeft="498,206.6" />
         <NodeLayout
           Size="97.6,41.6"
-          Id="Package\Data Flow Task 1\Sort"
+          Id="Package\Cargar Restaurantes\Sort"
           TopLeft="92,155.6" />
         <NodeLayout
-          Size="162.4,41.6"
-          Id="Package\Data Flow Task 1\ODBC Destination"
+          Size="181.6,41.6"
+          Id="Package\Cargar Restaurantes\Destino en la base sql"
           TopLeft="539,302" />
         <NodeLayout
-          Size="181.6,59.2"
-          Id="Package\Data Flow Task 1\Excel Source"
+          Size="140,41.6"
+          Id="Package\Cargar Restaurantes\Restaurantes"
           TopLeft="61,61" />
         <EdgeLayout
-          Id="Package\Data Flow Task 1.Paths[Sort Output]"
+          Id="Package\Cargar Restaurantes.Paths[Sort Output]"
           TopLeft="189.6,176.4">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="103.4,28.3999999999999"
+              EndConnector="103.4,28.4"
               Start="0,0"
-              End="95.9,28.3999999999999">
+              End="95.9,28.4">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -1080,13 +2499,13 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
                     Point2="51.7,0"
                     Point3="51.7,4" />
                   <mssgle:LineSegment
-                    End="51.7,24.3999999999999" />
+                    End="51.7,24.4" />
                   <mssgle:CubicBezierSegment
-                    Point1="51.7,24.3999999999999"
-                    Point2="51.7,28.3999999999999"
-                    Point3="55.7,28.3999999999999" />
+                    Point1="51.7,24.4"
+                    Point2="51.7,28.4"
+                    Point3="55.7,28.4" />
                   <mssgle:LineSegment
-                    End="95.9,28.3999999999999" />
+                    End="95.9,28.4" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1096,14 +2515,14 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow Task 1.Paths[Lookup No Match Output]"
-          TopLeft="558.8,248.2">
+          Id="Package\Cargar Restaurantes.Paths[Lookup No Match Output]"
+          TopLeft="605.6,248.2">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="61.4000000000001,53.8"
+              EndConnector="24.2,53.8"
               Start="0,0"
-              End="61.4000000000001,46.3">
+              End="24.2,46.3">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -1114,85 +2533,85 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
                     Point2="0,26.9"
                     Point3="4,26.9" />
                   <mssgle:LineSegment
-                    End="57.4000000000001,26.9" />
+                    End="20.2,26.9" />
                   <mssgle:CubicBezierSegment
-                    Point1="57.4000000000001,26.9"
-                    Point2="61.4000000000001,26.9"
-                    Point3="61.4000000000001,30.9" />
+                    Point1="20.2,26.9"
+                    Point2="24.2,26.9"
+                    Point3="24.2,30.9" />
                   <mssgle:LineSegment
-                    End="61.4000000000001,46.3" />
+                    End="24.2,46.3" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-25.10638671875,31.9,111.6127734375,11.609375"
+              BoundingBox="-43.70638671875,31.9,111.6127734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow Task 1.Paths[Lookup Match Output]"
-          TopLeft="405.8,204.8">
+          Id="Package\Cargar Restaurantes.Paths[Lookup Match Output]"
+          TopLeft="454.6,204.8">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="92.1999999999999,22.6"
+              EndConnector="43.3999999999999,22.6"
               Start="0,0"
-              End="84.6999999999999,22.6">
+              End="35.8999999999999,22.6">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="42.1,0" />
+                    End="17.6999999999999,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="42.1,0"
-                    Point2="46.1,0"
-                    Point3="46.1,4" />
+                    Point1="17.6999999999999,0"
+                    Point2="21.6999999999999,0"
+                    Point3="21.6999999999999,4" />
                   <mssgle:LineSegment
-                    End="46.1,18.6" />
+                    End="21.6999999999999,18.6" />
                   <mssgle:CubicBezierSegment
-                    Point1="46.1,18.6"
-                    Point2="46.1,22.6"
-                    Point3="50.1,22.6" />
+                    Point1="21.6999999999999,18.6"
+                    Point2="21.6999999999999,22.6"
+                    Point3="25.6999999999999,22.6" />
                   <mssgle:LineSegment
-                    End="84.6999999999999,22.6" />
+                    End="35.8999999999999,22.6" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-2.09138671875004,-17.609375,96.3827734375,11.609375"
+              BoundingBox="-26.4913867187501,-17.609375,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow Task 1.Paths[Excel Source Output]"
-          TopLeft="151.8,120.2">
+          Id="Package\Cargar Restaurantes.Paths[Excel Source Output]"
+          TopLeft="131,102.6">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-11,35.4"
+              EndConnector="9.80000000000001,53"
               Start="0,0"
-              End="-11,27.9">
+              End="9.80000000000001,45.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,13.7" />
+                    End="0,22.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,13.7"
-                    Point2="0,17.7"
-                    Point3="-4,17.7" />
+                    Point1="0,22.5"
+                    Point2="0,26.5"
+                    Point3="4,26.5" />
                   <mssgle:LineSegment
-                    End="-6.99999999999997,17.7" />
+                    End="5.80000000000001,26.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="-6.99999999999997,17.7"
-                    Point2="-11,17.7"
-                    Point3="-11,21.7" />
+                    Point1="5.80000000000001,26.5"
+                    Point2="9.80000000000001,26.5"
+                    Point3="9.80000000000001,30.5" />
                   <mssgle:LineSegment
-                    End="-11,27.9" />
+                    End="9.80000000000001,45.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1205,7 +2624,7 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task 1\Lookup 1">
+    design-time-name="Package\Cargar Restaurantes\Verificar repetidos en la base">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
@@ -1228,7 +2647,7 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task 1\Excel Source">
+    design-time-name="Package\Cargar Restaurantes\Restaurantes">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -1241,7 +2660,7 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task 1\ODBC Destination">
+    design-time-name="Package\Cargar Restaurantes\Destino en la base sql">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -1250,6 +2669,348 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Cargar Montos de Ads">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="141.6,41.6"
+          Id="Package\Cargar Montos de Ads\ODBC Source"
+          TopLeft="143,56" />
+        <NodeLayout
+          Size="112.8,41.6"
+          Id="Package\Cargar Montos de Ads\Lookup"
+          TopLeft="156,153" />
+        <EdgeLayout
+          Id="Package\Cargar Montos de Ads.Paths[ODBC Source Output]"
+          TopLeft="213.1,97.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,55.4"
+              Start="0,0"
+              End="0,47.9">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,47.9" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="121.6,41.6"
+          Id="Package\Cargar Montos de Ads\Lookup 1"
+          TopLeft="148,245" />
+        <EdgeLayout
+          Id="Package\Cargar Montos de Ads.Paths[Lookup Match Output]"
+          TopLeft="210.6,194.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,50.4"
+              Start="0,0"
+              End="0,42.9">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,42.9" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,15.6453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="126.4,41.6"
+          Id="Package\Cargar Montos de Ads\Aggregate"
+          TopLeft="405,255" />
+        <NodeLayout
+          Size="162.4,41.6"
+          Id="Package\Cargar Montos de Ads\ODBC Destination"
+          TopLeft="658,272" />
+        <NodeLayout
+          Size="121.6,41.6"
+          Id="Package\Cargar Montos de Ads\Lookup 2"
+          TopLeft="283,326" />
+        <EdgeLayout
+          Id="Package\Cargar Montos de Ads.Paths[Lookup Match Output1]"
+          TopLeft="208.8,286.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="135,39.4"
+              Start="0,0"
+              End="135,31.9">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,15.7" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,15.7"
+                    Point2="0,19.7"
+                    Point3="4,19.7" />
+                  <mssgle:LineSegment
+                    End="131,19.7" />
+                  <mssgle:CubicBezierSegment
+                    Point1="131,19.7"
+                    Point2="135,19.7"
+                    Point3="135,23.7" />
+                  <mssgle:LineSegment
+                    End="135,31.9" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="19.30861328125,24.7,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Cargar Montos de Ads.Paths[Lookup Match Output2]"
+          TopLeft="362.733333333333,326">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="105.466666666667,-29.4"
+              Start="0,0"
+              End="105.466666666667,-21.9">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-7.98909090909091" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,-7.98909090909091"
+                    Point2="0,-11.9890909090909"
+                    Point3="4,-11.9890909090909" />
+                  <mssgle:LineSegment
+                    End="101.466666666667,-11.9890909090909" />
+                  <mssgle:CubicBezierSegment
+                    Point1="101.466666666667,-11.9890909090909"
+                    Point2="105.466666666667,-11.9890909090909"
+                    Point3="105.466666666667,-15.9890909090909" />
+                  <mssgle:LineSegment
+                    End="105.466666666667,-21.9" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="4.5419466145834,-6.98909090909091,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="121.6,41.6"
+          Id="Package\Cargar Montos de Ads\Lookup 3"
+          TopLeft="530,146.6" />
+        <EdgeLayout
+          Id="Package\Cargar Montos de Ads.Paths[Aggregate Output 1]"
+          TopLeft="468.2,255">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="122.6,-66.8"
+              Start="0,0"
+              End="122.6,-59.3">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-29.4" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,-29.4"
+                    Point2="0,-33.4"
+                    Point3="4,-33.4" />
+                  <mssgle:LineSegment
+                    End="118.6,-33.4" />
+                  <mssgle:CubicBezierSegment
+                    Point1="118.6,-33.4"
+                    Point2="122.6,-33.4"
+                    Point3="122.6,-37.4" />
+                  <mssgle:LineSegment
+                    End="122.6,-59.3" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Cargar Montos de Ads.Paths[Lookup No Match Output]"
+          TopLeft="609.733333333333,188.2">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="129.466666666667,83.8"
+              Start="0,0"
+              End="129.466666666667,76.3">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,30.172987012987" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,30.172987012987"
+                    Point2="0,34.172987012987"
+                    Point3="4,34.172987012987" />
+                  <mssgle:LineSegment
+                    End="125.466666666667,34.172987012987" />
+                  <mssgle:CubicBezierSegment
+                    Point1="125.466666666667,34.172987012987"
+                    Point2="129.466666666667,34.172987012987"
+                    Point3="129.466666666667,38.172987012987" />
+                  <mssgle:LineSegment
+                    End="129.466666666667,76.3" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="8.92694661458335,39.172987012987,111.6127734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargar Montos de Ads\ODBC Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargar Montos de Ads\Lookup">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string"></Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargar Montos de Ads\Lookup 1">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Restaurants]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargar Montos de Ads\ODBC Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargar Montos de Ads\Lookup 2">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string"></Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargar Montos de Ads\Lookup 3">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string"></Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
