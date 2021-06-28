@@ -18,7 +18,7 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">3</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.num_threads">4000</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
@@ -110,7 +110,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">localhost</stringProp>
               <stringProp name="HTTPSampler.port">5000</stringProp>
-              <stringProp name="HTTPSampler.protocol">https</stringProp>
+              <stringProp name="HTTPSampler.protocol">http</stringProp>
               <stringProp name="HTTPSampler.contentEncoding"></stringProp>
               <stringProp name="HTTPSampler.path">/api/kind/habit</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -122,6 +122,17 @@
               <stringProp name="HTTPSampler.connect_timeout"></stringProp>
               <stringProp name="HTTPSampler.response_timeout"></stringProp>
             </HTTPSamplerProxy>
+            <hashTree/>
+            <com.blazemeter.jmeter.RandomCSVDataSetConfig guiclass="com.blazemeter.jmeter.RandomCSVDataSetConfigGui" testclass="com.blazemeter.jmeter.RandomCSVDataSetConfig" testname="csv_coordinates" enabled="true">
+              <stringProp name="filename">D:\users\eidur\Desktop\Bases I\Proyecto2-BD1\Automation\coordinates.csv</stringProp>
+              <stringProp name="fileEncoding">UTF-8</stringProp>
+              <stringProp name="delimiter">,</stringProp>
+              <stringProp name="variableNames">longitude,latitude,title</stringProp>
+              <boolProp name="randomOrder">true</boolProp>
+              <boolProp name="ignoreFirstLine">false</boolProp>
+              <boolProp name="rewindOnTheEndOfList">true</boolProp>
+              <boolProp name="independentListPerThread">false</boolProp>
+            </com.blazemeter.jmeter.RandomCSVDataSetConfig>
             <hashTree/>
             <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
               <boolProp name="ResultCollector.error_logging">false</boolProp>
@@ -160,17 +171,6 @@
               <stringProp name="filename"></stringProp>
             </ResultCollector>
             <hashTree/>
-            <com.blazemeter.jmeter.RandomCSVDataSetConfig guiclass="com.blazemeter.jmeter.RandomCSVDataSetConfigGui" testclass="com.blazemeter.jmeter.RandomCSVDataSetConfig" testname="csv_coordinates" enabled="true">
-              <stringProp name="filename">D:\users\eidur\Desktop\Bases I\Proyecto2-BD1\Automation\coordinates.csv</stringProp>
-              <stringProp name="fileEncoding">UTF-8</stringProp>
-              <stringProp name="delimiter">,</stringProp>
-              <stringProp name="variableNames">longitude,latitude,title</stringProp>
-              <boolProp name="randomOrder">true</boolProp>
-              <boolProp name="ignoreFirstLine">false</boolProp>
-              <boolProp name="rewindOnTheEndOfList">true</boolProp>
-              <boolProp name="independentListPerThread">false</boolProp>
-            </com.blazemeter.jmeter.RandomCSVDataSetConfig>
-            <hashTree/>
           </hashTree>
         </hashTree>
       </hashTree>
@@ -180,7 +180,7 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.num_threads">10000</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
@@ -233,7 +233,7 @@
                   </elementProp>
                   <elementProp name="time" elementType="HTTPArgument">
                     <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                    <stringProp name="Argument.value">${mes}-${dia} 22:35:40.527</stringProp>
+                    <stringProp name="Argument.value">${mes}-${dia}%2022:35:40.527</stringProp>
                     <stringProp name="Argument.metadata">=</stringProp>
                     <boolProp name="HTTPArgument.use_equals">true</boolProp>
                     <stringProp name="Argument.name">time</stringProp>
@@ -242,7 +242,7 @@
               </elementProp>
               <stringProp name="HTTPSampler.domain">localhost</stringProp>
               <stringProp name="HTTPSampler.port">5000</stringProp>
-              <stringProp name="HTTPSampler.protocol">https</stringProp>
+              <stringProp name="HTTPSampler.protocol">http</stringProp>
               <stringProp name="HTTPSampler.contentEncoding"></stringProp>
               <stringProp name="HTTPSampler.path">/api/kind/post</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>

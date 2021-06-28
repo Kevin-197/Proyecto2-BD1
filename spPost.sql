@@ -10,7 +10,10 @@ Create procedure sp_Post
 	Declare @Socialmedia varchar(100)
 	Set  @userId = (Select UserId from dbo.Users where @pEmail=Email)
 	Set @Socialmedia = (Select social.Name from dbo.Auth_Providers social INNER JOIN dbo.UsersxProviders rel on rel.AuthProviderId = social.AuthProviderId Inner Join dbo.Users usu on usu.UserId =  rel.UserId Where rel.UserId = @userId and rel.PorDefecto = 1)
-	Insert into dbo.Posts(UserId, PracticeStart, PracticeEnd, PostURL, ActionURL) Values (@userId, DATEADD(DAY, -14, @pTimespan), @pTimespan, Concat('www.',@Socialmedia,'.com/post/', +CONVERT(VARCHAR,floor(999999*rand()))),Concat('www.',@Socialmedia,'.com/action/', +CONVERT(VARCHAR,floor(999999*rand()))))
+	Insert into dbo.Posts(UserId, PracticeStart, PracticeEnd, PostURL, ActionURL, IpAdress,  ComputerName, Checksum) Values (@userId, DATEADD(DAY, -14, @pTimespan), @pTimespan, Concat('www.',@Socialmedia,'.com/post/', +CONVERT(VARCHAR,floor(999999*rand()))),Concat('www.',@Socialmedia,'.com/action/', +CONVERT(VARCHAR,floor(999999*rand()))), Convert(varbinary,'172.0.0.1'), 'Some computer', Convert(varbinary,'checksum'+Convert(varchar,@userId)))
 	
 END
-EXEC sp_Post 11000, 52,514, 'Another Computer', 'UsEr','20.20.20.20','Gorillaz_125011', 'Visa'
+EXEC sp_Post '2021-06-25 2013:20:26.203', 'Estudiantec@itcr.cr109'
+Select * from Posts
+
+Select GETDATE()
