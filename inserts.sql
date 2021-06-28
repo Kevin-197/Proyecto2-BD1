@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-=======
 
 
->>>>>>> Kevin
 Insert into Severity(Name) Values ('Info')
 Insert into Severity(Name) Values ('Error')
 Insert into Severity(Name) Values ('Warning')
@@ -10,10 +7,7 @@ Insert into Severity(Name) Values ('Warning')
 Insert into EntityTypes(Name) Values ('User')
 Insert into EntityTypes(Name) Values ('Invoice')
 
-<<<<<<< HEAD
-=======
 
->>>>>>> Kevin
 Insert into AppSources(Name) Values ('App')
 Insert into AppSources(Name) Values ('Server')
 
@@ -34,11 +28,7 @@ INSERT INTO TransSubType(Name) VALUES('Bot Analysis')
 
 -- Merchants
 INSERT INTO Merchants(Name,Url,Enabled,IconUrl) VALUES('Paypal','https://www.paypal.com/',1,'https://logodownload.org/wp-content/uploads/2014/10/paypal-logo-0.png')
-<<<<<<< HEAD
-INSERT INTO Merchants(Name,Url,Enabled,IconUrl) VALUES('Google Pay','https://pay.google.com/",1,"https://www.gstatic.com/pay/images/logo_3x_v1.png')
-=======
 INSERT INTO Merchants(Name,Url,Enabled,IconUrl) VALUES('Google Pay','https://pay.google.com/',1,'https://www.gstatic.com/pay/images/logo_3x_v1.png')
->>>>>>> Kevin
 INSERT INTO Merchants(Name,Url,Enabled,IconUrl) VALUES('Apple Pay','https://www.apple.com/apple-pay/',1,'https://logodownload.org/wp-content/uploads/2019/09/apple-pay-logo-0.png')
 
 -- PaymentStatuses para pruebas
@@ -47,9 +37,6 @@ INSERT INTO PaymentStatuses(Name) VALUES('Rejected')
 INSERT INTO PaymentStatuses(Name) VALUES('Invalid')
 INSERT INTO PaymentStatuses(Name) VALUES('Communication Error')
 
-<<<<<<< HEAD
-INSERT INTO auth_providers(Name) value ('Facebook'), ('Twitter'), ('Tumblr'), ('Instagram')
-=======
 INSERT INTO auth_providers(Name) values ('Facebook'), ('Twitter'), ('Tumblr'), ('Instagram')
 
 --Locations
@@ -119,4 +106,3 @@ select * from UsersxProviders
 
 
 
->>>>>>> Kevin
