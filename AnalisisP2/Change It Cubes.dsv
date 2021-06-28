@@ -1,0 +1,178 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="181f707a-164b-45be-8f9f-366aa3c26097" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Change It Cubes</ID>
+  <Name>Change It Cubes</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Change It Cubes</DataSourceID>
+  <Schema>
+    <xs:schema id="Change_x0020_It_x0020_Cubes" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Change_x0020_It_x0020_Cubes" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="be5a8a92-f1f0-4a24-8787-ac5e47975208">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_AdsAmounts" msprop:design-time-name="00c22721-5439-4539-b17d-b1d509c4fdc8" msprop:DbTableName="AdsAmounts" msprop:FriendlyName="AdsAmounts" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="AdsAmountsId" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="45d9a163-e382-4936-8a66-554a3c1211c7" msprop:DbColumnName="AdsAmountsId" msprop:FriendlyName="AdsAmountsId" type="xs:long" />
+                  <xs:element name="Views" msprop:design-time-name="a2a7c143-b84a-48d7-9458-f0302da6cfd9" msprop:DbColumnName="Views" msprop:FriendlyName="Views" type="xs:int" />
+                  <xs:element name="Shares" msprop:design-time-name="0130922b-5f20-4628-bc08-ac61c99be54c" msprop:DbColumnName="Shares" msprop:FriendlyName="Shares" type="xs:int" />
+                  <xs:element name="Amount" msprop:design-time-name="6bd76edf-e30c-4625-9524-89b9d967dd11" msprop:DbColumnName="Amount" msprop:FriendlyName="Amount" type="xs:int" />
+                  <xs:element name="RestaurantId" msprop:design-time-name="992fb825-077d-40e5-9e7e-f879038e3b1b" msprop:DbColumnName="RestaurantId" msprop:FriendlyName="RestaurantId" type="xs:int" />
+                  <xs:element name="FechaId" msprop:design-time-name="4b9580ba-4060-47f5-a26c-fc779d90a3cc" msprop:DbColumnName="FechaId" msprop:FriendlyName="FechaId" type="xs:long" />
+                  <xs:element name="CampañaId" msprop:design-time-name="fdf654a8-aa56-4331-93db-a6c8aaa79244" msprop:DbColumnName="CampañaId" msprop:FriendlyName="CampañaId" type="xs:long" />
+                  <xs:element name="LocationId" msprop:design-time-name="85f0c588-d9fe-48df-981d-024cca569e24" msprop:DbColumnName="LocationId" msprop:FriendlyName="LocationId" type="xs:long" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Campañas" msprop:design-time-name="f95059ee-5291-41d0-b549-6b4998f9aca3" msprop:DbTableName="Campañas" msprop:FriendlyName="Campañas" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="CampañaId" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="e0b5cc25-aa2b-4666-b2e9-4446cdf7261a" msprop:DbColumnName="CampañaId" msprop:FriendlyName="CampañaId" type="xs:long" />
+                  <xs:element name="Name" msprop:design-time-name="6b3cf4fe-b0aa-49f6-83ba-351f26d81317" msprop:DbColumnName="Name" msprop:FriendlyName="Name">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Description" msprop:design-time-name="669dfff5-9202-4b27-880f-41d1fa728ad5" msprop:DbColumnName="Description" msprop:FriendlyName="Description">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="150" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Fechas" msprop:design-time-name="0d205ba1-c7ef-42ba-815d-87b8d6abb345" msprop:DbTableName="Fechas" msprop:FriendlyName="Fechas" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="fechaId" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="b38d1413-ebae-4cc9-bcfd-21b7748da9f4" msprop:DbColumnName="fechaId" msprop:FriendlyName="fechaId" type="xs:long" />
+                  <xs:element name="mes" msprop:design-time-name="859ad6ea-16d7-4d06-b2bc-bb069be299c7" msprop:DbColumnName="mes" msprop:FriendlyName="mes" type="xs:int" />
+                  <xs:element name="year" msprop:design-time-name="67844ccd-a009-4c67-9991-d945ab00c271" msprop:DbColumnName="year" msprop:FriendlyName="year" type="xs:int" />
+                  <xs:element name="día" msprop:design-time-name="3a17fb19-d9b0-4fbc-b729-34208f7aa8cf" msprop:DbColumnName="día" msprop:FriendlyName="día" type="xs:int" />
+                  <xs:element name="fecha" msprop:design-time-name="3e0d060f-7dbc-447c-a17f-a43586e3661a" msprop:DbColumnName="fecha" msprop:FriendlyName="fecha" type="xs:dateTime" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Locaciones" msprop:design-time-name="e73ca43c-8621-46de-bb57-378d03e9c3a1" msprop:DbTableName="Locaciones" msprop:FriendlyName="Locaciones" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="LocationId" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="da2ad927-b18a-46ae-bdeb-74b04d47de8f" msprop:DbColumnName="LocationId" msprop:FriendlyName="LocationId" type="xs:long" />
+                  <xs:element name="Name" msprop:design-time-name="d806189d-efe5-4ce9-af29-b619f1f626e8" msprop:DbColumnName="Name" msprop:FriendlyName="Name">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="70" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Population" msprop:design-time-name="82c47d83-ed6b-4520-b2c6-ae3dd83c2126" msprop:DbColumnName="Population" msprop:FriendlyName="Population" type="xs:int" />
+                  <xs:element name="Location" msprop:design-time-name="7e7ecd39-0910-47ba-aa8a-3464423bc626" msprop:DbColumnName="Location" msprop:FriendlyName="Location" type="xs:string" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Restaurantes" msprop:design-time-name="1971faab-4559-489b-96c0-22a548556f07" msprop:DbTableName="Restaurantes" msprop:FriendlyName="Restaurantes" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="RestaurantId" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="8e9881ba-a4a7-443a-83dc-b4dc21663c48" msprop:DbColumnName="RestaurantId" msprop:FriendlyName="RestaurantId" type="xs:int" />
+                  <xs:element name="Name" msprop:design-time-name="88fce022-149e-41d0-bf34-1cb25d006e04" msprop:DbColumnName="Name" msprop:FriendlyName="Name">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="LocationId" msprop:design-time-name="2303c87a-a9af-4570-8d9c-6b06c19f5a14" msprop:DbColumnName="LocationId" msprop:FriendlyName="LocationId" type="xs:long" />
+                  <xs:element name="Address" msprop:design-time-name="d8a38ca2-f4c8-4f48-be1a-c1fb1a2a46bc" msprop:DbColumnName="Address" msprop:FriendlyName="Address">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_AdsAmounts" />
+          <xs:field xpath="AdsAmountsId" />
+        </xs:unique>
+        <xs:unique name="dbo_Campañas_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Campañas" />
+          <xs:field xpath="CampañaId" />
+        </xs:unique>
+        <xs:unique name="dbo_Fechas_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Fechas" />
+          <xs:field xpath="fechaId" />
+        </xs:unique>
+        <xs:unique name="dbo_Locaciones_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Locaciones" />
+          <xs:field xpath="LocationId" />
+        </xs:unique>
+        <xs:unique name="dbo_Restaurantes_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Restaurantes" />
+          <xs:field xpath="RestaurantId" />
+        </xs:unique>
+        <xs:keyref name="FK_Restaurantes_Locaciones" refer="dbo_Locaciones_Constraint1">
+          <xs:selector xpath=".//dbo_Restaurantes" />
+          <xs:field xpath="LocationId" />
+        </xs:keyref>
+        <xs:keyref name="FK_AdsAmounts_Campañas" refer="dbo_Campañas_Constraint1">
+          <xs:selector xpath=".//dbo_AdsAmounts" />
+          <xs:field xpath="CampañaId" />
+        </xs:keyref>
+        <xs:keyref name="FK_AdsAmounts_Locaciones" refer="dbo_Locaciones_Constraint1">
+          <xs:selector xpath=".//dbo_AdsAmounts" />
+          <xs:field xpath="LocationId" />
+        </xs:keyref>
+        <xs:keyref name="FK_AdsAmounts_Fechas" refer="dbo_Fechas_Constraint1">
+          <xs:selector xpath=".//dbo_AdsAmounts" />
+          <xs:field xpath="FechaId" />
+        </xs:keyref>
+        <xs:keyref name="FK_AdsAmounts_Restaurantes" refer="dbo_Restaurantes_Constraint1">
+          <xs:selector xpath=".//dbo_AdsAmounts" />
+          <xs:field xpath="RestaurantId" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Change_x0020_It_x0020_Cubes xmlns="" />
+  </Schema>
+</DataSourceView>

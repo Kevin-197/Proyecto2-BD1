@@ -1,0 +1,29 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>Change It Cubes</Id>
+            <Name>Change It Cubes</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQjfMlGM/xE+/k0aWk5/lmgAAAAAgAAAAQwBoAGEAbgBnAGUAIABJAHQAIABDAHUAYgBlAHMAAAAQZgAAAAEAACAAAADzOlqtnVMyNVwloJarwwizqgJ5cVbPI5+UKW5fiqFr1QAAAAAOgAAAAAIAACAAAAC8yUdeEfciSwsVsc3VXRnROt09u90vEMui4l4q78W2ARAAAAAMTtlih6k6UN0ZGN7am/kPQAAAAAJkHhHLh6D/4woSS7Kwzs4lelNB2WxjT+13VhZ3Huo6YQ3obogzqIBOTWnkGtItLHECNSD6cnuQ1QNx+6snWdo=</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>Change It Cubes</Id>
+            <Name>Change It Cubes</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQjfMlGM/xE+/k0aWk5/lmgAAAAAgAAAAQwBoAGEAbgBnAGUAIABJAHQAIABDAHUAYgBlAHMAAAAQZgAAAAEAACAAAAA+aGxUH0cyxswfTFmld3IYTCpYO9wPaVlas3eun3V+ygAAAAAOgAAAAAIAACAAAAAgloTGsDCKUWjBZy4W3fOwp5drp6XgvpjUVNqU6lDBASAAAADZpK7IW+CoaoaWsY6MFHLYlkWk1SaM1dLJ2T9QsPfAM0AAAAAMXyZ8sai5BOaaCnlIOEYoxZrV4NhWMF3snlYa2l+G3hs8PMWg26UjEYOHdFfALEi7au2OQNH1JygFS40+2sLN</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>localhost</TargetServer>
+        <TargetDatabase>AnalisisP2</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>

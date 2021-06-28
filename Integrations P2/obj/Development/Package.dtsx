@@ -11,8 +11,8 @@
   DTS:LocaleID="5130"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="51"
-  DTS:VersionGUID="{A312E221-D994-4EE2-9D6D-237B9C441129}">
+  DTS:VersionBuild="55"
+  DTS:VersionGUID="{D93D96A1-D5EC-4B30-BDF1-3577E27A17A7}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,17 +29,32 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Chageit2.sa]"
+      DTS:CreationName="ODBC"
+      DTS:DTSID="{DBFD1A32-FE5B-4CEC-9F62-F76D2B9A2A47}"
+      DTS:ObjectName="Chageit2.sa">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="uid=sa;Dsn=Chageit2;">
+          <DTS:Password
+            DTS:Name="pwd"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQjfMlGM/xE+/k0aWk5/lmgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADx1zQXwc6RIsp4moAfJqWmjuBeK+ETBT7BQD0Z0idC+AAAAAAOgAAAAAIAACAAAAAeND1PudQpcQDuOqt/+o8w+gLGywtgE12sADJIOOSbIiAAAABN+JPebsf+lkoLb3FmNWJk30z2TTGIPB3IhoPuF1bB2kAAAADimNdqx0RYPvH5N4Y5xLyMOe6P6cxVXrOz4Ez8Qfb+5ZvSYSyGRQCk/QfpeSHFZWDXuLtf23UsQDbmbbbZ6epf</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Changeit.sa]"
       DTS:CreationName="ODBC"
       DTS:DTSID="{B326CF03-56B4-4DAB-BFF8-B042E2FC9A18}"
       DTS:ObjectName="Changeit.sa">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="uid=sa;Dsn=Changeit;">
+          DTS:ConnectionString="uid=sa;Dsn=Chageit2;">
           <DTS:Password
             DTS:Name="pwd"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQjfMlGM/xE+/k0aWk5/lmgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACM7UAN0Pu37RA3XjtbQPr7PF4mK8WDt9SMfhrxfz1unQAAAAAOgAAAAAIAACAAAACUJoEdRn/rvHSWKAariWX5ybYkRZtqBjeVAPjo67ZvbSAAAABd2N+07cBYIzeruvwET2Squ971vN1SuD5tmHiXDARnXUAAAABuXuNDb+vqv0WX6LiLf75rad9XTVTMphGbTorPlbMsB0xZ6KULAGWDbIEjFMg+GJdGBz76k6C8qvjbIaeLiKlB</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQjfMlGM/xE+/k0aWk5/lmgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACIMUVwCt/8nW+s417LXlQ0TnVKovMm2emikMLkpLosqwAAAAAOgAAAAAIAACAAAAA79TXjDw4yAuSrBd7YzmbiKLuX2nQs5FUq99+DXLtQnSAAAABWK1l1LSCmHtsLYwIQSwSRY/6/RI5HPhN5L/16XZICGkAAAAB9ddPWn7/J3nAIT2tNnzfcmoyV5pHnhg5tEWUmJ341ponytkqRSTV8YA5Y5vXs7LjeFYqq0fFPB6DIqEArv3VP</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -50,11 +65,11 @@
       DTS:ObjectName="ChangeitCubes.sa">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="uid=sa;Dsn=ChangeitCubes;">
+          DTS:ConnectionString="uid=sa;Dsn=ChangeitCubes2;">
           <DTS:Password
             DTS:Name="pwd"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQjfMlGM/xE+/k0aWk5/lmgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC8bJyTzfBszh5Ep+wAdgxGUnDSKUyxrB1MUIwPc72HXwAAAAAOgAAAAAIAACAAAACit6oPHYIRT697KrPBldq/86hPOzHtrzl4ceBYrKsYjiAAAADYnrRJ1qnfn98Lmv9CQtKcOuY1Ql3mhNgw1iY4hp20PUAAAADx0YUniHfoMuxveSWYCvLiPiHDd3HyXNoMMcm3hibiAismb6rduZSXc8rM0MhL3qPuY2oEPCup8sgax7xg8+oE</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQjfMlGM/xE+/k0aWk5/lmgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABcqksDoODbdTf+F8mb25f//4YEGkrW0cN6931lHPlLNQAAAAAOgAAAAAIAACAAAABh5R44IWRcq7Cfib9NQQg2IZjLSrrnePkItiy+8/tboSAAAAAtLkxzhv2j2SUO6mcg1GpyP5VaR9qtx6JyNbfY0PKTx0AAAACgFhoBCm3KYIJoS9IcRpzcO/It9FbOTb6egPUekjFsfdZ4sSFS9JQTppX+ZiOIObjOnTUFt0xE2Ww6HtL9I+x2</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -65,11 +80,43 @@
       DTS:ObjectName="ChangeitCubes.sa 1">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="uid=sa;Dsn=ChangeitCubes;">
+          DTS:ConnectionString="uid=sa;Dsn=ChangeitCubes2;">
           <DTS:Password
             DTS:Name="pwd"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQjfMlGM/xE+/k0aWk5/lmgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAduHTGJRlhrP4xuoykSQ6KQ69jGPCM8HD2xTgIor1LngAAAAAOgAAAAAIAACAAAABhXYdcY/LMvTo/yo0qy0PLeBp6LhrLWhn11oxp8pwnLiAAAAAd3AL92Elx98XtFpFO5WoArvF0ZPJZ3qFFmgCk8YYq9kAAAABvAoL9fUY+V3TwCuTF9jtJgxga/kuYWi1oxJk4uiO5txgtxOJh+oV6yCXTgjvNyMHq575kfAawok05QAZlS/5+</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQjfMlGM/xE+/k0aWk5/lmgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADb7Pj1hLLOV255P5vN5oqRxFcUOJSVVZ/gw+C6tgcOVgAAAAAOgAAAAAIAACAAAAAoBNf4DAqi1xUfu7f2egzSo7swX22d7o91azFuRqPtzCAAAADyD+Kj2isuRPOA3IHl9u9MOru486JNpHV8NYscJQxNAEAAAAAB356Kruziyn+fQRis+L44zwTBSSLf+rYo1LBCXyIagN1gQXm/1q0CUFcTcjD1I9vxKOm0YEsuT2pt1RUV8kjQ</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[ChangeitCubes2.sa]"
+      DTS:CreationName="ODBC"
+      DTS:DTSID="{B94C5BFD-2E20-4520-B4E6-8CC71E25DA9F}"
+      DTS:ObjectName="ChangeitCubes2.sa">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="uid=sa;Dsn=ChangeitCubes2;">
+          <DTS:Password
+            DTS:Name="pwd"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQjfMlGM/xE+/k0aWk5/lmgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAFCGDc9eBH/uQajPBWfy74ybn7t569WhJJhhVBUJXFaQAAAAAOgAAAAAIAACAAAAACWYviVgVtvk1baPj0iNfiN0YhtukD7PzSIg9razT5nCAAAABJQtGYBE0+NMc6wbXaItDErNpJx9hHSpjH4+wfMA5gxkAAAACsCjg/v28Qidd0JcvyItb4npZgxabMUcbXXdNKD7IPLQZAxARw99DPhneDBkpRdMbb0Ld3QHZglfe+kp1ICj6a</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[LAPTOP-O7NC02DG\SQLP2.ChangeItCubes.sa]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{0308855D-2AA7-4391-85CC-166973C6FAD0}"
+      DTS:ObjectName="LAPTOP-O7NC02DG\SQLP2.ChangeItCubes.sa">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=LAPTOP-O7NC02DG\SQLP2;User ID=sa;Initial Catalog=ChangeItCubes;Provider=SQLNCLI11.1;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQjfMlGM/xE+/k0aWk5/lmgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADc3Dcm4CpBVrjDslzHgjiPPg12Uk3BbOCkduItmFoLfAAAAAAOgAAAAAIAACAAAABRxmqcuv7HMaI/OhqWQIXH/PXRg1UwdzsmNt/X9p3/4yAAAABxCGqw0IEvKzFQgGeRZEvNatZVmw7UUeboOdgpjPbOrUAAAAAemEjllorEq84GHR+ODWRe+FImNNop/CGxqLixk0EIDtrfr/q2BZdMMLKvsC5Xbv9MD1zKydZlidf8Wzzdy8MG</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -82,11 +129,11 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=LAPTOP-O7NC02DG\SQLSERVER;User ID=sa;Initial Catalog=ChageitDB;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=LAPTOP-O7NC02DG\SQLP2;User ID=sa;Initial Catalog=ChageitDB;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQjfMlGM/xE+/k0aWk5/lmgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABE/QDgo7GJNWXOwQ7C72KLP+t5awpTslaoGkUSlFD5xQAAAAAOgAAAAAIAACAAAAAzLfT9PCRW22/IQDyGPMBahOiNIa98qdQv3MtvK483wyAAAAB/3wv+/dEbvrj4kSbFypG+4I200yHcDP1jw2CqSAVgM0AAAACEEfoZLpRUHr40rH+uhk9W21X1SoMIVHci1RT9LYqexoUFytlNvuhlBARDyW9uKWBHdTPUXIDSzPffp7BWEu+q</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQjfMlGM/xE+/k0aWk5/lmgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADYJBMrr4bTXeWRFQ4NBQfs0ML47wyIjDNArNc3aUilOQAAAAAOgAAAAAIAACAAAACcR8/QQoD9mgEovBUbHzGFVc9Epv3CDzGNJWL9f/h+ACAAAAAIgsLdZc5/mUotlgsfaKvMSylU+EHUju6wR/HURpOpj0AAAAAUI0nZZz0M8nGuOdLcLZ+0YhuNhFiDynzk1Gd+3zivYT5uSkIWUmJsPHet1111S3purK5Vm8WL7HvzFpbizd24</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -99,7 +146,12 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=LAPTOP-O7NC02DG\SQLSERVER;Initial Catalog=ChangeItCubes;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=LAPTOP-O7NC02DG\SQLP2;User ID=sa;Initial Catalog=ChangeItCubes;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQjfMlGM/xE+/k0aWk5/lmgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADOp6QWJUbNDTxhHjo4pUhahzl/U/i1sCHsy1BG2C8FvAAAAAAOgAAAAAIAACAAAACp5KE9DfqDDhJMxlxrieT37YAi08aIk66QcQOE4ARZSCAAAADuRVbg26bycJh3UHMdU0opdT9TWyPNdAWBncBm+lmVHkAAAAALL+BIykQGOGw/bMsX5j70rD328cyCYYCwlJrKcwrKrCQoVa/70B6AQx1tfBvLbKmz1LuoIHoTSTYC26dA2Zfw</DTS:Password>
+        </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -113,7 +165,7 @@
           <DTS:Password
             DTS:Name="pwd"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQjfMlGM/xE+/k0aWk5/lmgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACkKnF3dsK/+Dd1QwxKXeZGIZuaUx1yrDCSPpSdSn8JDgAAAAAOgAAAAAIAACAAAABu3bg+g7w+OHajXuXMH1cTzfUY6iQb6iHUhaOa89QEoRAAAACYAbIMUg7ET5Srq8M1sR7wQAAAAArbfAcukpO9H219hmMwDgUTDyhGhlEgB1RhVQ5DaUjKJ5bv4jgydbk/X3Rlhne2m7p5xL2fUQJghsAPzw4JYwA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQjfMlGM/xE+/k0aWk5/lmgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADzh8zH1pblk7X037d/As1BY7+zgyhWuEE3EALemUTm6QAAAAAOgAAAAAIAACAAAAC20Tjmk1BLKEzgMAiDdGfRWpgVdoDYrSikwYuhPfywChAAAADaAx7YsWGHWD2S59MUg1bLQAAAAArEUewC7Kt45E+jtzeGFcQrp+PYT+Buj7tTEdFQiDRPzfCMZmCpMK9ZW1mbtXuzKa4WNwvXKFGawRhF2RB3k9s</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -287,8 +339,8 @@ where [refTable].[Description] = ?</property>
               <connections>
                 <connection
                   refId="Package\Cargar Campañas\Lookup.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[LAPTOP-O7NC02DG\SQLSERVER.ChangeItCubes]"
-                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-O7NC02DG\SQLSERVER.ChangeItCubes]"
+                  connectionManagerID="Package.ConnectionManagers[LAPTOP-O7NC02DG\SQLP2.ChangeItCubes.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-O7NC02DG\SQLP2.ChangeItCubes.sa]"
                   description="Connection manager used to access lookup data."
                   name="OleDbConnection" />
               </connections>
@@ -418,8 +470,8 @@ where [refTable].[Description] = ?</property>
               <connections>
                 <connection
                   refId="Package\Cargar Campañas\ODBC Destination.Connections[ODBCConnection]"
-                  connectionManagerID="Package.ConnectionManagers[ChangeitCubes.sa]"
-                  connectionManagerRefId="Package.ConnectionManagers[ChangeitCubes.sa]"
+                  connectionManagerID="Package.ConnectionManagers[ChangeitCubes2.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[ChangeitCubes2.sa]"
                   description="The ODBC runtime connection used to access the database."
                   name="ODBCConnection" />
               </connections>
@@ -563,8 +615,8 @@ where [refTable].[Description] = ?</property>
               <connections>
                 <connection
                   refId="Package\Cargar Campañas\ODBC Source.Connections[ODBCConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Changeit.sa]"
-                  connectionManagerRefId="Package.ConnectionManagers[Changeit.sa]"
+                  connectionManagerID="Package.ConnectionManagers[Chageit2.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[Chageit2.sa]"
                   description="The ODBC runtime connection used to access the database."
                   name="ODBCConnection" />
               </connections>
@@ -1204,8 +1256,8 @@ where [refTable].[Fecha] = ?</property>
               <connections>
                 <connection
                   refId="Package\Cargar Fechas\ODBC Destination.Connections[ODBCConnection]"
-                  connectionManagerID="Package.ConnectionManagers[ChangeitCubes.sa 1]"
-                  connectionManagerRefId="Package.ConnectionManagers[ChangeitCubes.sa 1]"
+                  connectionManagerID="Package.ConnectionManagers[ChangeitCubes2.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[ChangeitCubes2.sa]"
                   description="The ODBC runtime connection used to access the database."
                   name="ODBCConnection" />
               </connections>
@@ -1231,17 +1283,19 @@ where [refTable].[Fecha] = ?</property>
                       externalMetadataColumnId="Package\Cargar Fechas\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[year]"
                       lineageId="Package\Cargar Fechas\Derived Column.Outputs[Derived Column Output].Columns[Año]" />
                     <inputColumn
-                      refId="Package\Cargar Fechas\ODBC Destination.Inputs[ODBC Destination Input].Columns[Fecha]"
-                      cachedDataType="dbDate"
-                      cachedName="Fecha"
-                      externalMetadataColumnId="Package\Cargar Fechas\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[fecha]"
-                      lineageId="Package\Cargar Fechas\Derived Column.Outputs[Derived Column Output].Columns[Fecha]" />
-                    <inputColumn
                       refId="Package\Cargar Fechas\ODBC Destination.Inputs[ODBC Destination Input].Columns[Dia]"
                       cachedDataType="i4"
                       cachedName="Dia"
                       externalMetadataColumnId="Package\Cargar Fechas\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[día]"
                       lineageId="Package\Cargar Fechas\Derived Column.Outputs[Derived Column Output].Columns[Dia]" />
+                    <inputColumn
+                      refId="Package\Cargar Fechas\ODBC Destination.Inputs[ODBC Destination Input].Columns[Fecha]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Fecha"
+                      cachedSortKeyPosition="1"
+                      externalMetadataColumnId="Package\Cargar Fechas\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[fecha]"
+                      lineageId="Package\Cargar Fechas\Sort.Outputs[Sort Output].Columns[Fecha]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -2864,8 +2918,8 @@ where [refTable].[Population] = ?</property>
               <connections>
                 <connection
                   refId="Package\Cargar Locations\ODBC Source.Connections[ODBCConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Changeit.sa]"
-                  connectionManagerRefId="Package.ConnectionManagers[Changeit.sa]"
+                  connectionManagerID="Package.ConnectionManagers[Chageit2.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[Chageit2.sa]"
                   description="The ODBC runtime connection used to access the database."
                   name="ODBCConnection" />
               </connections>
@@ -3860,17 +3914,25 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="161.6,41.6"
+          Id="Package\Cargar Campañas"
+          TopLeft="308.571433826369,214.88235595482" />
+        <NodeLayout
           Size="145.6,41.6"
           Id="Package\Cargar Fechas"
           TopLeft="48.5714293985952,40.5294123331157" />
         <NodeLayout
-          Size="174.4,41.6"
-          Id="Package\Cargar Restaurantes"
-          TopLeft="34.2857148695967,211.058826489432" />
+          Size="147.2,41.6"
+          Id="Package\Cargar Hechos"
+          TopLeft="314.285719637968,126.176472357813" />
         <NodeLayout
           Size="156.8,41.6"
           Id="Package\Cargar Locations"
           TopLeft="42.1428578605458,127.705884143968" />
+        <NodeLayout
+          Size="174.4,41.6"
+          Id="Package\Cargar Restaurantes"
+          TopLeft="34.2857148695967,211.058826489432" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción]"
           TopLeft="120.957143629571,82.1294123331157">
@@ -3893,10 +3955,6 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="161.6,41.6"
-          Id="Package\Cargar Campañas"
-          TopLeft="308.571433826369,214.88235595482" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 1]"
           TopLeft="121.014286365071,169.305884143968">
@@ -3941,10 +3999,6 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="147.2,41.6"
-          Id="Package\Cargar Hechos"
-          TopLeft="314.285719637968,126.176472357813" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 3]"
           TopLeft="388.628576732169,214.88235595482">
@@ -3971,18 +4025,193 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
     </LayoutInfo>
   </Package>
   <TaskHost
+    design-time-name="Package\Cargar Campañas">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="141.6,41.6"
+          Id="Package\Cargar Campañas\ODBC Source"
+          TopLeft="303,96.0000000000001" />
+        <NodeLayout
+          Size="112.8,41.6"
+          Id="Package\Cargar Campañas\Lookup"
+          TopLeft="310,183" />
+        <NodeLayout
+          Size="150.4,41.6"
+          Id="Package\Cargar Campañas\Derived Column"
+          TopLeft="298,262.8" />
+        <NodeLayout
+          Size="162.4,41.6"
+          Id="Package\Cargar Campañas\ODBC Destination"
+          TopLeft="286,348" />
+        <EdgeLayout
+          Id="Package\Cargar Campañas.Paths[ODBC Source Output]"
+          TopLeft="370.1,137.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,45.4"
+              Start="0,0"
+              End="0,37.9">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,37.9" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Cargar Campañas.Paths[Lookup No Match Output]"
+          TopLeft="369.8,224.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,38.1999999999999"
+              Start="0,0"
+              End="0,30.6999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,30.6999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-55.80638671875,9.54531249999995,111.6127734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Cargar Campañas.Paths[Derived Column Output]"
+          TopLeft="370.2,304.4">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,43.6"
+              Start="0,0"
+              End="0,36.1">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,36.1" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargar Campañas\ODBC Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargar Campañas\Lookup">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Campañas]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargar Campañas\ODBC Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
     design-time-name="Package\Cargar Fechas">
     <LayoutInfo>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="172,41.6"
-          Id="Package\Cargar Fechas\AdsAmounts Mongo"
-          TopLeft="100.142856413004,37.6470585661363" />
-        <NodeLayout
           Size="112.8,41.6"
           Id="Package\Cargar Fechas\Lookup"
           TopLeft="127.857145034537,110.117648603182" />
+        <NodeLayout
+          Size="152.8,41.6"
+          Id="Package\Cargar Fechas\Derived Column"
+          TopLeft="472.857150909852,187.447060207017" />
+        <NodeLayout
+          Size="97.6,41.6"
+          Id="Package\Cargar Fechas\Sort"
+          TopLeft="137.142859478386,182.094118955474" />
+        <NodeLayout
+          Size="162.4,41.6"
+          Id="Package\Cargar Fechas\ODBC Destination"
+          TopLeft="603.571438850189,291.270591860247" />
+        <NodeLayout
+          Size="172,41.6"
+          Id="Package\Cargar Fechas\AdsAmounts Mongo"
+          TopLeft="100.142856413004,37.6470585661363" />
+        <EdgeLayout
+          Id="Package\Cargar Fechas.Paths[Sort Output]"
+          TopLeft="234.742859478386,205.570589581245">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="238.114291431466,0"
+              Start="0,0"
+              End="230.614291431466,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="230.614291431466,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Cargar Fechas.Paths[ODBC Source Output]"
           TopLeft="185.200000723771,79.2470585661363">
@@ -4005,10 +4234,6 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="97.6,41.6"
-          Id="Package\Cargar Fechas\Sort"
-          TopLeft="137.142859478386,182.094118955474" />
         <EdgeLayout
           Id="Package\Cargar Fechas.Paths[Lookup No Match Output]"
           TopLeft="185.100002256462,151.717648603182">
@@ -4033,14 +4258,6 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="162.4,41.6"
-          Id="Package\Cargar Fechas\ODBC Destination"
-          TopLeft="603.571438850189,291.270591860247" />
-        <NodeLayout
-          Size="152.8,41.6"
-          Id="Package\Cargar Fechas\Derived Column"
-          TopLeft="472.857150909852,187.447060207017" />
         <EdgeLayout
           Id="Package\Cargar Fechas.Paths[Derived Column Output]"
           TopLeft="573.390484243185,229.047060207017">
@@ -4075,31 +4292,45 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Cargar Fechas.Paths[Sort Output]"
-          TopLeft="234.742859478386,205.570589581245">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="238.114291431466,0"
-              Start="0,0"
-              End="230.614291431466,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="230.614291431466,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargar Fechas\Lookup">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string"></Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargar Fechas\ODBC Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Cargar Fechas\AdsAmounts Mongo">
     <Properties>
@@ -4114,6 +4345,389 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <TaskHost
+    design-time-name="Package\Cargar Hechos">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="141.6,41.6"
+          Id="Package\Cargar Hechos\ODBC Source"
+          TopLeft="160,80" />
+        <NodeLayout
+          Size="121.6,41.6"
+          Id="Package\Cargar Hechos\Lookup 1"
+          TopLeft="166,300" />
+        <NodeLayout
+          Size="121.6,41.6"
+          Id="Package\Cargar Hechos\Lookup 3"
+          TopLeft="393,192" />
+        <NodeLayout
+          Size="112.8,41.6"
+          Id="Package\Cargar Hechos\Lookup"
+          TopLeft="174,192" />
+        <NodeLayout
+          Size="121.6,41.6"
+          Id="Package\Cargar Hechos\Lookup 2"
+          TopLeft="399,296" />
+        <NodeLayout
+          Size="162.4,41.6"
+          Id="Package\Cargar Hechos\ODBC Destination"
+          TopLeft="369,74" />
+        <EdgeLayout
+          Id="Package\Cargar Hechos.Paths[ODBC Source Output]"
+          TopLeft="230.6,121.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,70.4000000000001"
+              Start="0,0"
+              End="0,62.9000000000001">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,62.9000000000001" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Cargar Hechos.Paths[Lookup Match Output3]"
+          TopLeft="452,192">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,-76.4"
+              Start="0,0"
+              End="0,-68.9">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-68.9" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,-40.2546875,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Cargar Hechos.Paths[Lookup Match Output2]"
+          TopLeft="456.8,296">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,-62.4"
+              Start="0,0"
+              End="0,-54.9">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-54.9" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,-33.2546875,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Cargar Hechos.Paths[Lookup Match Output1]"
+          TopLeft="287.6,318.8">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="111.4,0"
+              Start="0,0"
+              End="103.9,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="103.9,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="3.75861328125,5,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Cargar Hechos.Paths[Lookup Match Output]"
+          TopLeft="228.6,233.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,66.3999999999999"
+              Start="0,0"
+              End="0,58.8999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,58.8999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,23.6453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargar Hechos\ODBC Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargar Hechos\Lookup 1">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Restaurantes]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargar Hechos\Lookup 3">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string"></Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargar Hechos\Lookup">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Locaciones]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargar Hechos\Lookup 2">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Campañas]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargar Hechos\ODBC Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Cargar Locations">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="141.6,41.6"
+          Id="Package\Cargar Locations\ODBC Source"
+          TopLeft="184,83" />
+        <NodeLayout
+          Size="162.4,41.6"
+          Id="Package\Cargar Locations\ODBC Destination"
+          TopLeft="175,285" />
+        <NodeLayout
+          Size="112.8,41.6"
+          Id="Package\Cargar Locations\Lookup"
+          TopLeft="199,191" />
+        <EdgeLayout
+          Id="Package\Cargar Locations.Paths[ODBC Source Output]"
+          TopLeft="255.1,124.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,66.4"
+              Start="0,0"
+              End="0,58.9">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,58.9" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Cargar Locations.Paths[Lookup No Match Output]"
+          TopLeft="255.8,232.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,52.3999999999999"
+              Start="0,0"
+              End="0,44.8999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,44.8999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-55.80638671875,16.6453125,111.6127734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargar Locations\ODBC Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargar Locations\ODBC Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargar Locations\Lookup">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Locaciones]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
     design-time-name="Package\Cargar Restaurantes">
     <LayoutInfo>
       <GraphLayout
@@ -4123,13 +4737,17 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
           Id="Package\Cargar Restaurantes\Restaurantes"
           TopLeft="61,61" />
         <NodeLayout
-          Size="161.6,41.6"
-          Id="Package\Cargar Restaurantes\Join con locations"
-          TopLeft="268,184" />
-        <NodeLayout
           Size="97.6,41.6"
           Id="Package\Cargar Restaurantes\Sort"
           TopLeft="92,155.6" />
+        <NodeLayout
+          Size="162.4,41.6"
+          Id="Package\Cargar Restaurantes\ODBC Destination"
+          TopLeft="572,322" />
+        <NodeLayout
+          Size="161.6,41.6"
+          Id="Package\Cargar Restaurantes\Join con locations"
+          TopLeft="268,184" />
         <NodeLayout
           Size="215.2,41.6"
           Id="Package\Cargar Restaurantes\Verificar repetidos en la base"
@@ -4165,7 +4783,45 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Cargar Restaurantes.Paths[Lookup No Match Output]"
+          TopLeft="604.6,247.2">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="48.5999999999998,74.8"
+              Start="0,0"
+              End="48.5999999999998,67.3">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,33.4" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,33.4"
+                    Point2="0,37.4"
+                    Point3="4,37.4" />
+                  <mssgle:LineSegment
+                    End="44.5999999999998,37.4" />
+                  <mssgle:CubicBezierSegment
+                    Point1="44.5999999999998,37.4"
+                    Point2="48.5999999999998,37.4"
+                    Point3="48.5999999999998,41.4" />
+                  <mssgle:LineSegment
+                    End="48.5999999999998,67.3" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-31.5063867187501,42.4,111.6127734375,11.609375"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -4235,349 +4891,9 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="162.4,41.6"
-          Id="Package\Cargar Restaurantes\ODBC Destination"
-          TopLeft="572,322" />
-        <EdgeLayout
-          Id="Package\Cargar Restaurantes.Paths[Lookup No Match Output]"
-          TopLeft="604.6,247.2">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="48.5999999999998,74.8"
-              Start="0,0"
-              End="48.5999999999998,67.3">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,33.4" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,33.4"
-                    Point2="0,37.4"
-                    Point3="4,37.4" />
-                  <mssgle:LineSegment
-                    End="44.5999999999998,37.4" />
-                  <mssgle:CubicBezierSegment
-                    Point1="44.5999999999998,37.4"
-                    Point2="48.5999999999998,37.4"
-                    Point3="48.5999999999998,41.4" />
-                  <mssgle:LineSegment
-                    End="48.5999999999998,67.3" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-31.5063867187501,42.4,111.6127734375,11.609375"
+              BoundingBox="0,0,0,0"
               RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Cargar Restaurantes\Restaurantes">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Cargar Restaurantes\Verificar repetidos en la base">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[Restaurantes]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Cargar Restaurantes\Join con locations">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string"></Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Cargar Fechas\Lookup">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string"></Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Cargar Fechas\ODBC Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\Cargar Locations">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="141.6,41.6"
-          Id="Package\Cargar Locations\ODBC Source"
-          TopLeft="184,83" />
-        <NodeLayout
-          Size="112.8,41.6"
-          Id="Package\Cargar Locations\Lookup"
-          TopLeft="199,191" />
-        <EdgeLayout
-          Id="Package\Cargar Locations.Paths[ODBC Source Output]"
-          TopLeft="255.1,124.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,66.4"
-              Start="0,0"
-              End="0,58.9">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,58.9" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="162.4,41.6"
-          Id="Package\Cargar Locations\ODBC Destination"
-          TopLeft="175,285" />
-        <EdgeLayout
-          Id="Package\Cargar Locations.Paths[Lookup No Match Output]"
-          TopLeft="255.8,232.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,52.3999999999999"
-              Start="0,0"
-              End="0,44.8999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,44.8999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-55.80638671875,16.6453125,111.6127734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Cargar Locations\ODBC Source">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Cargar Locations\Lookup">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[Locaciones]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Cargar Locations\ODBC Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\Cargar Campañas">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="141.6,41.6"
-          Id="Package\Cargar Campañas\ODBC Source"
-          TopLeft="303,96.0000000000001" />
-        <NodeLayout
-          Size="112.8,41.6"
-          Id="Package\Cargar Campañas\Lookup"
-          TopLeft="310,183" />
-        <EdgeLayout
-          Id="Package\Cargar Campañas.Paths[ODBC Source Output]"
-          TopLeft="370.1,137.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,45.4"
-              Start="0,0"
-              End="0,37.9">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,37.9" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="162.4,41.6"
-          Id="Package\Cargar Campañas\ODBC Destination"
-          TopLeft="286,348" />
-        <NodeLayout
-          Size="150.4,41.6"
-          Id="Package\Cargar Campañas\Derived Column"
-          TopLeft="298,262.8" />
-        <EdgeLayout
-          Id="Package\Cargar Campañas.Paths[Lookup No Match Output]"
-          TopLeft="369.8,224.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,38.1999999999999"
-              Start="0,0"
-              End="0,30.6999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,30.6999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-55.80638671875,9.54531249999997,111.6127734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Cargar Campañas.Paths[Derived Column Output]"
-          TopLeft="370.2,304.4">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,43.6"
-              Start="0,0"
-              End="0,36.1">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,36.1" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -4597,247 +4913,12 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Cargar Campañas\ODBC Source">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Cargar Campañas\Lookup">
+    design-time-name="Package\Cargar Restaurantes\Verificar repetidos en la base">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[Campañas]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Cargar Campañas\ODBC Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\Cargar Hechos">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="141.6,41.6"
-          Id="Package\Cargar Hechos\ODBC Source"
-          TopLeft="160,80" />
-        <NodeLayout
-          Size="112.8,41.6"
-          Id="Package\Cargar Hechos\Lookup"
-          TopLeft="174,192" />
-        <EdgeLayout
-          Id="Package\Cargar Hechos.Paths[ODBC Source Output]"
-          TopLeft="230.6,121.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,70.4000000000001"
-              Start="0,0"
-              End="0,62.9000000000001">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,62.9000000000001" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="121.6,41.6"
-          Id="Package\Cargar Hechos\Lookup 1"
-          TopLeft="166,300" />
-        <EdgeLayout
-          Id="Package\Cargar Hechos.Paths[Lookup Match Output]"
-          TopLeft="228.6,233.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,66.3999999999999"
-              Start="0,0"
-              End="0,58.8999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,58.8999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,23.6453125,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="121.6,41.6"
-          Id="Package\Cargar Hechos\Lookup 2"
-          TopLeft="399,296" />
-        <EdgeLayout
-          Id="Package\Cargar Hechos.Paths[Lookup Match Output1]"
-          TopLeft="287.6,318.8">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="111.4,0"
-              Start="0,0"
-              End="103.9,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="103.9,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="3.75861328125001,5,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="121.6,41.6"
-          Id="Package\Cargar Hechos\Lookup 3"
-          TopLeft="393,192" />
-        <EdgeLayout
-          Id="Package\Cargar Hechos.Paths[Lookup Match Output2]"
-          TopLeft="456.8,296">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,-62.4"
-              Start="0,0"
-              End="0,-54.9">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,-54.9" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,-33.2546875,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="162.4,41.6"
-          Id="Package\Cargar Hechos\ODBC Destination"
-          TopLeft="369,74" />
-        <EdgeLayout
-          Id="Package\Cargar Hechos.Paths[Lookup Match Output3]"
-          TopLeft="452,192">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,-76.4"
-              Start="0,0"
-              End="0,-68.9">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,-68.9" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,-40.2546875,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Cargar Hechos\ODBC Source">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Cargar Hechos\Lookup">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[Locaciones]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Cargar Hechos\Lookup 1">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -4847,7 +4928,7 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -4855,35 +4936,12 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Cargar Hechos\Lookup 2">
+    design-time-name="Package\Cargar Restaurantes\Join con locations">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[Campañas]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Cargar Hechos\Lookup 3">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -4893,7 +4951,7 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -4901,7 +4959,7 @@ where [refTable].[Name] = ? and [refTable].[Address] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Cargar Hechos\ODBC Destination">
+    design-time-name="Package\Cargar Restaurantes\Restaurantes">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
